@@ -1,16 +1,31 @@
 .img1 {
   width: 100%;
 }
+/****************Fonte**************/
+h3 {
+  color: #ffd689;
+  margin-top: 40px;
+  margin-bottom: 2px;
+  font-size: 22px;
+}
+p {
+  color: #1c1f40;
+}
+/****************Sektioner**************/
+.del_1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/*********************Alle kunstnere***************/
 .dag_1 {
   text-align: center;
 }
-
 .dag_2 {
   text-align: center;
 }
 .dag_3 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .linje1 {
   font-size: 30px;
@@ -26,6 +41,26 @@
   margin-top: 5px;
   margin-bottom: 10px;
 }
+/*********************Top 3 billeder***************/
+.top_kunstnere {
+  display: flex;
+  margin-left: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 70px;
+}
+.top1 {
+  width: 200px;
+}
+.top2 {
+  width: 200px;
+}
+.top3 {
+  width: 200px;
+}
+/*********************Knap***************/
 .knap {
   border-style: solid;
   border-color: #1c1f40;
@@ -33,23 +68,28 @@
   text-align: center;
   margin-left: 550px;
   margin-right: 550px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
+}
+.knap1 {
+  font-size: 25px;
+  color: #1c1f40;
 }
 
+/*********************Opdeler***************/
 .img_opdeler {
   width: 100%;
 }
-/****************Fonte**************/
-h3 {
-  color: #ffd689;
-  margin-top: 40px;
-  margin-bottom: 2px;
-  font-size: 22px;
+/*********************Dette års kunstnere***************/
+.overskrift2 {
+  margin-left: 90px;
+  font-size: 40px;
 }
-p {
-  color: #1c1f40;
+.galleri {
+  width: 200px;
 }
-a {
-  font-size: 25px;
-  color: #1c1f40;
+.kunstnere {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 50px;
+  margin-right: 50px;
 }

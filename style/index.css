@@ -13,8 +13,9 @@ img {
 .logo {
   width: 130px;
   height: 130px;
+  text-align: center;
 }
-
+/**************************************burger********************/
 body {
   margin: 0;
   padding: 0;
@@ -33,7 +34,6 @@ body {
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
-  background: #000;
   display: block;
   height: 2px;
   opacity: 1;
@@ -48,26 +48,32 @@ body {
   left: 0px;
   top: -10px;
   width: 27px;
+
+  background: #f8f2b1;
 }
 #burger-menu span {
   right: 0px;
   top: 13px;
   width: 27px;
+  background: #f8f2b1;
 }
 #burger-menu span:after {
   left: 0px;
   top: 10px;
   width: 27px;
+  background: #f8f2b1;
 }
 #burger-menu.close span:before {
   top: 0px;
   transform: rotate(90deg);
   width: 27px;
+  background: rgb(0, 0, 0);
 }
 #burger-menu.close span {
   transform: rotate(-45deg);
   top: 13px;
   width: 27px;
+  background: rgb(0, 0, 0);
 }
 #burger-menu.close span:after {
   top: 0px;
@@ -107,4 +113,43 @@ body {
   font-size: 32px;
   margin-bottom: 30px;
   text-decoration: none;
+}
+/***************************runner************************/
+
+svg {
+  font-size: 6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+svg path {
+  fill: transparent;
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 60px;
+  overflow-x: hidden;
+  background-color: #f8f2b1;
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }

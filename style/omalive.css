@@ -1,0 +1,35 @@
+/* fonts */
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/') format('tff'),
+        url('/fonte/Font\ -\ GT\ Haptik/') format('tff');
+    /* Add more font formats if available */
+    /* Define font variations if needed (e.g., font-weight, font-style) */
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    background-image: url("/img/omalive1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-family: MieSpecial-regular;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px 20px;
+}

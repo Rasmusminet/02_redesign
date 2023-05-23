@@ -1,19 +1,41 @@
-/* fonts */
+/* generelt */
 @font-face {
-    font-family: 'MyCustomFont';
-    src: url('/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/') format('tff'),
-        url('/fonte/Font\ -\ GT\ Haptik/') format('tff');
+    font-family: 'Mie-Regular';
+    src: url('/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/Mie-Regular.ttf') format('ttf');
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Menu */
+.naven ul.menu {
+    display: none;
+    /* Hide the menu by default */
+}
+
+.naven .burger {
+    display: block;
+    /* Show the burger menu */
+}
+
+/* hero-image */
 .hero-image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 30vh;
-    background-image: url("/img/omalive1.jpg");
+    background-image: linear-gradient(#00000080, #00000080), url("/img/omalive1.jpg");
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .hero-text {
@@ -22,12 +44,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #fff;
-    font-family: MieSpecial-regular;
+    color: #F8F2B1;
+    font-family: 'Mie-Regular', sans-serif;
 }
 
 .hero-text h1 {
     font-size: 36px;
     margin: 0;
-    padding: 10px 20px;
+    padding: 0;
+}
+
+.logo {
+    width: 33%;
+    height: auto;
+    position: relative;
+    left: 3%;
+    top: 4px;
 }

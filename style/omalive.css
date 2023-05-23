@@ -1,7 +1,7 @@
 /* generelt */
 @font-face {
-    font-family: 'Mie-Regular';
-    src: url('/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/Mie-Regular.ttf') format('ttf');
+    font-family: "MieSpecial-Regular";
+    src: url(/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/MieSpecial-Regular.ttf);
 }
 
 body {
@@ -45,7 +45,12 @@ img {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #F8F2B1;
-    font-family: 'Mie-Regular', sans-serif;
+    font-family: MieSpecial-Regular, sans-serif;
+}
+
+.alive-text {
+    color: transparent;
+    text-shadow: -1px -1px 0 #F8F2B1, 1px -1px 0 #F8F2B1, -1px 1px 0 #F8F2B1, 1px 1px 0 #F8F2B1;
 }
 
 .hero-text h1 {

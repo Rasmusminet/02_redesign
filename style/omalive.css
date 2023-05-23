@@ -3,8 +3,6 @@
     font-family: 'MyCustomFont';
     src: url('/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/') format('tff'),
         url('/fonte/Font\ -\ GT\ Haptik/') format('tff');
-    /* Add more font formats if available */
-    /* Define font variations if needed (e.g., font-weight, font-style) */
 }
 
 .hero-image {

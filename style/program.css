@@ -1,0 +1,172 @@
+/****************Hero img***********************/
+.img1 {
+  width: 100%;
+}
+img {
+  width: 100px;
+}
+/****************Fonte**************************/
+h3 {
+  color: #ffd689;
+  margin-top: 40px;
+  margin-bottom: 2px;
+  font-size: 22px;
+}
+p {
+  color: #1c1f40;
+}
+/****************Sektioner**********************/
+.del_1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.del_2 {
+  margin-bottom: 100px;
+}
+/****************Alle kunstnere*****************/
+.dag_1 {
+  text-align: center;
+}
+.dag_2 {
+  text-align: center;
+}
+.dag_3 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.linje1 {
+  font-size: 30px;
+  margin: 5px;
+}
+.linje2 {
+  font-size: 20px;
+  margin: 5px;
+}
+.linje3 {
+  font-size: 15px;
+  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/*****************Top 3 billeder*****************/
+.top_kunstnere {
+  display: flex;
+  margin-left: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 70px;
+}
+.top1 {
+  width: 200px;
+}
+.top2 {
+  width: 200px;
+}
+.top3 {
+  width: 200px;
+}
+/*********************Knap***********************/
+.knap {
+  padding: 40px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 150px;
+}
+.knap1 {
+  font-size: 25px;
+  color: #1c1f40;
+}
+
+/*********************Opdeler********************/
+.img_opdeler {
+  width: 100%;
+}
+/**************Dette års kunstnere***************/
+.overskrift2 {
+  margin-left: 90px;
+  font-size: 40px;
+}
+.my-image {
+  width: 200px;
+}
+.kunstnere {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*********************Pop up*******************/
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  background-color: #ffd689;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 600px;
+}
+.content-wrapper {
+  display: flex;
+}
+
+.image-container {
+  margin-right: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+.text-container {
+  flex-grow: 1;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #1c1f40;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #1c1f40;
+  padding: 10px;
+  text-align: center;
+}
+
+.close-btn {
+  color: black;
+  margin-top: 210px;
+  margin-right: 405px;
+  float: inline-end;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #c7cd4b;
+  text-decoration: none;
+  cursor: pointer;
+}

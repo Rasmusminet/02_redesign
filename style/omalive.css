@@ -19,16 +19,7 @@ img {
     height: auto;
 }
 
-/* Menu */
-.naven ul.menu {
-    display: none;
-    /* Hide the menu by default */
-}
 
-.naven .burger {
-    display: block;
-    /* Show the burger menu */
-}
 
 .logo {
     width: 33%;
@@ -76,16 +67,31 @@ img {
     top: -1px;
 }
 
-section {
+.om_alive_text {
     padding: 50px 20px;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
-h2 {
-    margin-bottom: 20px;
+.forening_text {
+    padding: 50px 20px;
+    margin-top: -104px;
+}
+
+.forening_text h3 {
+    color: #F8F2B1;
+}
+
+.tidligerefestivaler_text {
+    padding: 50px 20px;
+    margin-top: -104px;
 }
 
 p {
     margin-bottom: 10px;
     line-height: 1.5;
+    font-family: GT-Haptik-Regular, sans-serif;
+}
+
+h3 {
+    font-family: GT-Haptik-Regular, sans-serif;
 }

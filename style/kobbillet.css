@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "MieSpecial-Regular";
+  src: url(/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/MieSpecial-Regular.ttf);
+}
+
+@font-face {
+  font-family: "GT-Haptik";
+  src: url(/fonte/font-GT_Haptik/GT-Haptik-Regular.otf);
+}
+
+body {
+  background-image: url(/img/baggrund.png);
+  background-color: #489f21;
+  background-blend-mode: screen;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.logo {
+  width: 12%;
+  height: auto;
+  position: relative;
+  top: 3%;
+  left: 2%;
+}
+
+.billetbillede {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-image: linear-gradient(#00000080, #00000080), url(/img/kobbillet1.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.billettekst {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #f8f2b1;
+  font-family: MieSpecial-Regular, sans-serif;
+}
+
+.billettekst h1 {
+  font-size: 250%;
+  margin: 0 112;
+  padding: 0;
+}
+
+.billetbillede_tekst {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1043.59/345.82;
+  position: relative;
+  top: 10px;
+}
+
+/******************************************* billetter *****************************************/
+h3 {
+  font-family: GT-Haptik, sans-serif;
+  color: #1c1f40;
+  margin-left: 2%;
+}
+
+.billet {
+  margin-top: 55%;
+}
+
+.partout {
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.torsdag {
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.fredag {
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.lordag {
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sanketur {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.kbh-thy {
+  width: 60%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.aarhus-thy {
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/********************* knap *********************************************/
+.knap_partout {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #107a3e;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 31.5%;
+  margin-top: 5%;
+}
+
+.knap_partout:hover {
+  background-color: #0031d3c4;
+}
+
+.knap_torsdag {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #466d9f;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 31.5%;
+  margin-top: 5%;
+}
+
+.knap_torsdag:hover {
+  background-color: #466d9f;
+}
+
+.knap_fredag {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff39d;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 31.5%;
+  margin-top: 5%;
+}
+
+.knap_fredag:hover {
+  background-color: #fff39d;
+}
+
+.knap_lordag {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #247659;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 31.5%;
+  margin-top: 5%;
+}
+
+.knap_lordag:hover {
+  background-color: #247659;
+}
+
+/*********************burger menu ****************************/
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: GT-Haptik, sans-serif;
+}
+#burger-menu {
+  cursor: pointer;
+  height: 27px;
+  width: 27px;
+  margin: 30px;
+  overflow: visible;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+  display: block;
+  height: 2px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+#burger-menu span:before,
+#burger-menu span:after {
+  content: "";
+}
+#burger-menu span:before {
+  left: 0px;
+  top: -10px;
+  width: 27px;
+
+  background: #f8f2b1;
+}
+#burger-menu span {
+  right: 0px;
+  top: 13px;
+  width: 27px;
+  background: #f8f2b1;
+}
+#burger-menu span:after {
+  left: 0px;
+  top: 10px;
+  width: 27px;
+  background: #f8f2b1;
+}
+#burger-menu.close span:before {
+  top: 0px;
+  transform: rotate(90deg);
+  width: 27px;
+  background: rgb(0, 0, 0);
+}
+#burger-menu.close span {
+  transform: rotate(-45deg);
+  top: 13px;
+  width: 27px;
+  background: rgb(0, 0, 0);
+}
+#burger-menu.close span:after {
+  top: 0px;
+  left: 0;
+  transform: rotate(90deg);
+  opacity: 0;
+  width: 0;
+}
+#menu {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+#menu.overlay {
+  visibility: visible;
+  opacity: 1;
+  padding-top: 100px;
+  background: #f8f2b1;
+}
+#menu ul {
+  padding: 0;
+}
+#menu li {
+  list-style: none;
+}
+#menu a {
+  color: #000;
+  display: block;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+/*********************burger menu ****************************/

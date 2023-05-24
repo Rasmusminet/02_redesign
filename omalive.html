@@ -16,20 +16,20 @@
 
             <a href="index.html"><img src="img/Alive Festival'23_logo_gul.png" class="logo" alt="Logo"></a>
         </div>
-        <nav class="naven">
-            <ul class="menu">
+        <nav>
+            <div id="burger-menu">
+                <span></span>
+            </div>
 
-                <li><a class="sider" href="program.html">PROGRAM</a></li>
-                <li><a class="sider" href="kobbillet.html">KØB BILLET</a></li>
-                <li><a class="sider" href="blivfrivillig.html">BLIV FRIVILLIG</a></li>
-                <li><a class="sider" href="faq.html">FAQ</a></li>
-                <li><a class="sider" href="omalive.html">OM ALIVE</a></li>
+            <div id="menu">
+                <ul>
+                    <li><a class="sider" href="program.html">PROGRAM</a></li>
+                    <li><a class="sider" href="kobbillet.html">KØB BILLET</a></li>
+                    <li><a class="sider" href="blivfrivillig.html">BLIV FRIVILLIG</a></li>
+                    <li><a class="sider" href="faq.html">FAQ</a></li>
+                    <li><a class="sider" href="omalive.html">OM ALIVE</a></li>
 
-            </ul>
-            <div class="burger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+                </ul>
 
             </div>
         </nav>
@@ -37,9 +37,155 @@
     <main>
         <div class="hero-image">
             <div class="hero-text">
-                <h1>OM <span class="alive-text">ALIVE</span></h1>
+                <h1>OM</h1>
+                <img class="img_hero-text" src="img/om_alive0.svg" alt="ALIVE">
             </div>
         </div>
+
+        <section class="om_alive_text">
+            <h3>ALIVE FESTIVAL ER TRE SOMMERDAGE I THY FULDE AF MUSIK, KUNST OG UDFLUGTER.</h3>
+            <p>Vores mission er at skabe dét øjeblik, hvor vi overraskes, hvor horisonter udvides og fordomme
+                nedbrydes.
+                Det øjeblik hvor kultur opstår – uanset om det er med musik, kunst, natur, lokalmiljø eller mellem
+                mennesker –
+                og
+                hvor vi inspireres til at tænke nyt.</p>
+            <img class="om_alive_img" src="img/omalive2.jpg" alt="">
+            <p>Hver juli smelter storbyboere, kunstnere og en stærk ungdomskultur sammen til et nyt, kreativt og
+                mangfoldigt
+                lokalsamfund i Thy, hvor vi kommer hinanden ved og vækker noget nyt til live i os selv.</p>
+            <img class="om_alive_img" src="img/omalive3.jpg" alt="">
+            <p>Efter vandreture, surfskole eller bryghusbesøg bringer vores gæster energien fra Limfjorden,
+                Vesterhavet
+                og
+                Nationalpark
+                Thy med tilbage på festivalpladsen. Her vandrer de mange Thy’ske oplevelser videre fra mund til
+                mund,
+                mens
+                gæsterne går
+                på opdagelse i det levende kunstprogram og crowdsurfer sig gennem aftenens koncerter.</p>
+            <img class="om_alive_img" src="img/omalive4.bmp" alt="">
+            <p>Stemningen fra scenerne skifter mellem rå undergrundstechno, varm solskinspop, rituel afro-beat,
+                fræsende
+                rockguitar,
+                velkendte ørehængere og helt smalle eksperimenter. Store navne fra ind- og udland deler scene med de
+                skarpeste
+                up-and-comers fra hele genrepaletten, mens mens Alive’ere indtager
+                hjertet af Thy for at danse under
+                åben himmel
+                hele
+                weekenden</p>
+            <img class="om_alive_img" src="img/omalive5.jpg" alt="">
+        </section>
+        <section class="forening_text">
+            <h3>FORENINGEN THY ALIVE – KULTUREN OG VISIONEN BAG</h3>
+            <img src="img/omalive7.jpg" alt="" onclick="openPopup()">
+        </section>
+
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img src="img/omalive7.jpg" alt="">
+                <h2>FORENINGEN THY ALIVE – KULTUREN OG VISIONEN BAG</h2>
+                <p>Når du tager på Alive Festival, er det Foreningen Thy Alive, der byder dig indenfor. Vi er cirka 80
+                    frivillige ildsjæle,
+                    der hele året arbejder for, at hver festival bliver bedre end den foregående.</p>
+
+                <p>Vi vil vise, at store kulturoplevelser og meningsfulde fællesskaber gror der, hvor idéerne og
+                    engagementet er. Vi tror
+                    på, at unge mennesker med legesyge og kreativitet kan få store ting til at ske – og udvikle sig selv
+                    i processen. I
+                    Foreningen Thy Alive knokler vi for at give gæsterne de bedste festivaloplevelser. Samtidig arbejder
+                    vi også altid for
+                    at lave festival på en måde, som er sjov for dem, der skaber den. Det er det, vores fællesskab
+                    handler om.</p>
+                <p> Du kan blive medlem af Foreningen Thy Alive og være med til at forme retningen for Alive Festival.
+                    Du
+                    kan se vores
+                    aktuelle bestyrelse under kontakt. Som medlem får du løbende opdateringer fra bestyrelsen året rundt
+                    samt stemmeret til
+                    den årlige generalforsamling i november.</p>
+                <h2>Ambitiøs frivillighed</h2>
+                <p>Når du deltager på Alive Festival, inviterer vi dig også med ind i fællesskabet blandt de frivillige,
+                    der skaber Alive.
+                    I 2019 var cirka en femtedel af gæsterne på Alive frivillige og på denne måde medskabere af
+                    festivalen. Vi tror på, at
+                    det giver en særlig Alive-stemning af ejerskab og ansvar for, at alle får en god oplevelse. </p>
+
+                <p>Vi har i løbet af 12 år arbejdet på at knække koden til at forene ambitiøs frivillighed med
+                    professionel
+                    festivalvirksomhed. Det starter med de helårsfrivillige, i Alive kaldet 365’ere. For os er det
+                    afgørende, at disse
+                    frivillige inddrages og har stor indflydelse på, hvad vi laver på Alive. På den måde holder vi liv i
+                    den oprindelige
+                    Alive-ånd, hvor ideerne fra engagerede ildsjæle bliver til en festival i Thy.</p>
+
+                <p>Centralt for inddragelsen af de frivillige er vores cirka tre arbejdsweekender fordelt hen over
+                    året. På
+                    arbejdsweekender sætter vi vores hjerner i frigear: udvikler nye formater for kunstneriske
+                    festivaloplevelser og drøfter
+                    i dybden, hvordan vi vil udvikle Alive Festival. Og bagefter knokler vi så med at finde på måder at
+                    realisere ideerne.</p>
+
+                <p>Vil du gerne være med i det frivillige frivillige fællesskab i Alive og lave festival året rundt? Så
+                    skriv til
+                    frivillig@alivefestival.dk. Har du lyst til at læse mere – eller måske bare tage en tjans under
+                    afviklingsdagen – så se
+                    mere på bliv frivillig.</p>
+
+            </div>
+        </div>
+
+
+        <section class="tidligerefestivaler_text">
+            <h3>TIDLIGERE FESTIVALER</h3>
+            <p>Historien rækker mere end ti år tilbage og fortæller om en forvandling fra spæd, græsrodsbaseret
+                musikfestival til
+                fuldvoksen festival for nye opdagelser med stærke rødder i den Thy’ske muld.
+            </p>
+
+            <section class="carousel" aria-label="Gallery">
+                <ol class="carousel__viewport">
+                    <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                        </div>
+                    </li>
+                    <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                    </li>
+                    <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                    </li>
+                    <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                    </li>
+                </ol>
+                <aside class="carousel__navigation">
+                    <ol class="carousel__navigation-list">
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                        </li>
+                    </ol>
+                </aside>
+            </section>
+        </section>
 
     </main>
     <footer>

@@ -11,6 +11,7 @@
 img {
   width: 100%;
   height: auto;
+  margin-top: 5%;
 }
 
 .logo {
@@ -59,30 +60,74 @@ img {
 }
 
 /******************************************* billetter *****************************************/
+h3 {
+  font-family: GT-Haptik, sans-serif;
+  color: #1c1f40;
+}
+
+.billet {
+  margin-top: 20%;
+}
+
 .partout {
   width: 60%;
   height: auto;
-  margin-top: 20%;
-  margin-inline: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .torsdag {
   width: 60%;
   height: auto;
   margin-top: 10%;
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .fredag {
   width: 60%;
   height: auto;
   margin-top: 10%;
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .lordag {
   width: 60%;
   height: auto;
   margin-top: 10%;
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sanketur {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.kbh-thy {
+  width: 60%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.aarhus-thy {
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

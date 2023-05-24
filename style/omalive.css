@@ -70,6 +70,10 @@ img {
     margin-top: 132px;
 }
 
+.om_alive_img {
+    border-radius: 25px;
+}
+
 .forening_text {
     padding: 50px 20px;
     margin-top: -104px;

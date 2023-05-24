@@ -12,20 +12,25 @@
   font-family: "GT-Haptik-Regular";
   src: url(/fonte/font-GT_Haptik/GT-Haptik-Regular.otf);
 }
+/********************img************/
 img {
   width: 100%;
   height: auto;
   display: block;
-  padding: 7px;
 }
-
+.bileder1 {
+  width: 90%;
+  border-radius: 25px;
+  margin-inline: auto;
+}
+/********************/
 .logo {
   width: 130px;
   height: 130px;
   z-index: 5;
   margin-inline: auto;
   margin-bottom: 2rem;
-  margin-top: 8%;
+  margin-top: 6%;
 }
 /**************************************burger********************/
 body {
@@ -140,7 +145,7 @@ body {
   color: black;
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 13%;
+  margin-top: 14.5%;
   font-family: "MieSpecial-Regular";
 }
 
@@ -149,7 +154,7 @@ body {
   white-space: nowrap;
   will-change: transform;
   animation: marquee 30s linear infinite;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 @keyframes marquee {
@@ -170,4 +175,50 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
+}
+/*********************cunt down**************/
+
+/* general styling */
+:root {
+  --smaller: 0.75;
+}
+
+.container {
+  color: #f8f2b1;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "GT-Haptik-Regular";
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
 }

@@ -4,6 +4,11 @@
     src: url(/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/MieSpecial-Regular.ttf);
 }
 
+@font-face {
+    font-family: "MieSpecial-Regular";
+    src: url(/fonte/);
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -25,6 +30,14 @@ img {
     /* Show the burger menu */
 }
 
+.logo {
+    width: 33%;
+    height: auto;
+    position: relative;
+    left: 3%;
+    top: 4px;
+}
+
 /* hero-image */
 .hero-image {
     position: absolute;
@@ -39,6 +52,7 @@ img {
 }
 
 .hero-text {
+    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,21 +62,30 @@ img {
     font-family: MieSpecial-Regular, sans-serif;
 }
 
-.alive-text {
-    color: transparent;
-    text-shadow: -1px -1px 0 #F8F2B1, 1px -1px 0 #F8F2B1, -1px 1px 0 #F8F2B1, 1px 1px 0 #F8F2B1;
-}
-
 .hero-text h1 {
     font-size: 36px;
-    margin: 0;
+    margin: 0 7px;
     padding: 0;
 }
 
-.logo {
-    width: 33%;
+.img_hero-text {
+    width: 57%;
     height: auto;
+    aspect-ratio: 1272/521;
     position: relative;
-    left: 3%;
-    top: 4px;
+    top: -1px;
+}
+
+section {
+    padding: 50px 20px;
+    margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
 }

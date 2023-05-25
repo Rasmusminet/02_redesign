@@ -13,8 +13,17 @@ body {
   background-image: url(/img/baggrund.png);
   background-color: #489f21;
   background-blend-mode: screen;
+  font-family: GT-Haptik, sans-serif;
 }
 /*********************burger menu ****************************/
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-image: url(/img/baggrund.png);
+  background-color: #489f21;
+  background-blend-mode: screen;
+}
 #burger-menu {
   cursor: pointer;
   height: 27px;
@@ -101,6 +110,7 @@ body {
 }
 #menu li {
   list-style: none;
+  font-family: "GT-Haptik-Regular";
 }
 #menu a {
   color: #000;

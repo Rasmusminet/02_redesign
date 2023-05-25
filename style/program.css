@@ -1,19 +1,5 @@
-/****************Hero img***********************/
-.programbillede {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 30vh;
-  background-image: linear-gradient(#00000080, #00000080), url(/img/program1.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-img {
-  width: 100px;
-}
-/****************Fonte**************************/
+/*************************************************************************************************************/
+/**Fonte**/
 @font-face {
   font-family: "MieSpecial-Regular";
   src: url(/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/MieSpecial-Regular.ttf);
@@ -32,21 +18,24 @@ img {
   font-family: "GT-Haptik-Bold";
   src: url(/fonte/font-GT_Haptik/GT-Haptik-Bold.otf);
 }
+/*************************************************************************************************************/
+/**Hero img**/
+.programbillede {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-image: linear-gradient(#00000080, #00000080), url(/img/program1.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
 h1 {
   font-family: MieSpecial-Regular, sans-serif;
   text-align: center;
   font-size: 10px;
 }
-h3 {
-  margin-top: 40px;
-  margin-bottom: 2px;
-  font-size: 22px;
-}
-p {
-  font-family: GT-Haptik, sans-serif;
-  color: #1c1f40;
-}
-
 .logo {
   width: 12%;
   height: auto;
@@ -60,18 +49,19 @@ p {
   top: 10%;
 }
 
-/****************Sektioner**********************/
+/*************************************************************************************************************/
 .del_1 {
-  margin-top: 250px;
+  margin-top: 240px;
   margin-bottom: 90px;
 }
-.del_2 {
-  margin-bottom: 50px;
-}
-/****************Alle kunstnere*****************/
+/*************************************************************************************************************/
+/**Oversigt over dagene**/
 .dage_overskrift {
   font-size: 18px;
   color: #f8f2b1;
+  margin-top: 40px;
+  margin-bottom: 2px;
+  font-family: GT-Haptik-Bold, sans-serif;
 }
 .dag_1 {
   text-align: center;
@@ -100,7 +90,7 @@ p {
   margin-bottom: 10px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
-/*****************Top 3 billeder*****************/
+/**Top 3 billeder**/
 .top1 {
   width: 200px;
   margin-bottom: 20px;
@@ -116,7 +106,7 @@ p {
   margin-bottom: 40px;
   margin-left: 80px;
 }
-/*********************Knap***********************/
+/**Knap**/
 .knap {
   padding: 20px;
   text-align: center;
@@ -129,12 +119,13 @@ p {
   color: #1c1f40;
   font-family: GT-Haptik-Bold, sans-serif;
 }
-
-/*********************Opdeler********************/
+/*************************************************************************************************************/
 .img_opdeler {
   width: 100%;
+  margin-bottom: 20px;
 }
-/**************Dette års kunstnere***************/
+/*************************************************************************************************************/
+/**Dette års kunstnere**/
 .overskrift2 {
   margin-left: 15px;
   font-size: 20px;
@@ -149,13 +140,43 @@ p {
   margin-left: 40px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
-/*.kunstnere {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 50px;
-  margin-right: 50px;
-}*/
-/*********************Pop up*******************/
+/**Figurer**/
+.figur1 {
+  width: 30%;
+  z-index: -3;
+  margin-top: 30%;
+  margin-left: 55%;
+  position: absolute;
+}
+.figur2 {
+  width: 40%;
+  z-index: -1;
+  margin-top: -2%;
+  margin-left: -5%;
+  position: absolute;
+}
+.figur3 {
+  width: 40%;
+  z-index: -1;
+  margin-top: 30%;
+  margin-left: -10%;
+  position: absolute;
+}
+.figur4 {
+  width: 40%;
+  z-index: -1;
+  margin-top: 40%;
+  margin-left: 30%;
+  position: absolute;
+}
+.figur5 {
+  width: 40%;
+  z-index: -1;
+  margin-top: 60%;
+  margin-left: 45%;
+  position: absolute;
+}
+/**Pop up**/
 .popup {
   display: none;
   position: fixed;
@@ -167,7 +188,6 @@ p {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 .popup-content {
   background-color: #ffd689;
   margin: 100px 10px;
@@ -177,33 +197,27 @@ p {
 .content-wrapper {
   display: flex;
 }
-
 .image-container {
   margin-right: 20px;
 }
-
 .image-container img {
   max-width: 100%;
   height: auto;
   width: 200px;
 }
-
 .text-container {
   flex-grow: 1;
 }
-
 h2 {
   font-size: 24px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
   margin-bottom: 5px;
 }
-
 p {
   font-size: 16px;
   line-height: 1.5;
   font-family: GT-Haptik-Regular, sans-serif;
 }
-
 .close-btn {
   color: black;
   margin-top: 100px;
@@ -212,113 +226,10 @@ p {
   font-size: 50px;
   cursor: pointer;
 }
-
 .close-btn:hover,
 .close-btn:focus {
   color: #c7cd4b;
   text-decoration: none;
   cursor: pointer;
 }
-
-/*********************burger menu ****************************/
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  font-family: sans-serif;
-}
-#burger-menu {
-  cursor: pointer;
-  height: 27px;
-  width: 27px;
-  margin: 30px;
-  overflow: visible;
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  right: 0;
-}
-#burger-menu span,
-#burger-menu span:before,
-#burger-menu span:after {
-  display: block;
-  height: 2px;
-  opacity: 1;
-  position: absolute;
-  transition: 0.3s ease-in-out;
-}
-#burger-menu span:before,
-#burger-menu span:after {
-  content: "";
-}
-#burger-menu span:before {
-  left: 0px;
-  top: -10px;
-  width: 27px;
-
-  background: #f8f2b1;
-}
-#burger-menu span {
-  right: 0px;
-  top: 13px;
-  width: 27px;
-  background: #f8f2b1;
-}
-#burger-menu span:after {
-  left: 0px;
-  top: 10px;
-  width: 27px;
-  background: #f8f2b1;
-}
-#burger-menu.close span:before {
-  top: 0px;
-  transform: rotate(90deg);
-  width: 27px;
-  background: rgb(0, 0, 0);
-}
-#burger-menu.close span {
-  transform: rotate(-45deg);
-  top: 13px;
-  width: 27px;
-  background: rgb(0, 0, 0);
-}
-#burger-menu.close span:after {
-  top: 0px;
-  left: 0;
-  transform: rotate(90deg);
-  opacity: 0;
-  width: 0;
-}
-#menu {
-  z-index: 1;
-  min-width: 100%;
-  min-height: 100%;
-  position: fixed;
-  top: 0;
-  height: 0;
-  visibility: hidden;
-  opacity: 0;
-  text-align: center;
-  padding-top: 20px;
-  transition: all 0.3s ease-in-out;
-}
-#menu.overlay {
-  visibility: visible;
-  opacity: 1;
-  padding-top: 100px;
-  background: #f8f2b1;
-}
-#menu ul {
-  padding: 0;
-}
-#menu li {
-  list-style: none;
-}
-#menu a {
-  color: #000;
-  display: block;
-  font-size: 32px;
-  margin-bottom: 30px;
-  text-decoration: none;
-}
-/*********************burger menu ****************************/
+/*************************************************************************************************************/

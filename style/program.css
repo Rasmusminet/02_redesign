@@ -1,29 +1,78 @@
 /****************Hero img***********************/
-.img1 {
+.programbillede {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 30vh;
+  background-image: linear-gradient(#00000080, #00000080), url(/img/program1.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 img {
   width: 100px;
 }
 /****************Fonte**************************/
+@font-face {
+  font-family: "MieSpecial-Regular";
+  src: url(/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/MieSpecial-Regular.ttf);
+}
+
+@font-face {
+  font-family: "GT-Haptik-Regular";
+  src: url(/fonte/font-GT_Haptik/GT-Haptik-Regular.otf);
+}
+
+@font-face {
+  font-family: "GT-Haptik-Bold-Oblique";
+  src: url(/fonte/font-GT_Haptik/GT-Haptik-Bold-Oblique.otf);
+}
+@font-face {
+  font-family: "GT-Haptik-Bold";
+  src: url(/fonte/font-GT_Haptik/GT-Haptik-Bold.otf);
+}
+h1 {
+  font-family: MieSpecial-Regular, sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
 h3 {
-  color: #ffd689;
   margin-top: 40px;
   margin-bottom: 2px;
   font-size: 22px;
 }
 p {
+  font-family: GT-Haptik, sans-serif;
   color: #1c1f40;
 }
+
+.logo {
+  width: 12%;
+  height: auto;
+  position: relative;
+  top: 3%;
+  left: 2%;
+}
+.programtekst {
+  color: #f8f2b1;
+  font-size: 3rem;
+  top: 10%;
+}
+
 /****************Sektioner**********************/
 .del_1 {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 250px;
+  margin-bottom: 90px;
 }
 .del_2 {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 /****************Alle kunstnere*****************/
+.dage_overskrift {
+  font-size: 18px;
+  color: #f8f2b1;
+}
 .dag_1 {
   text-align: center;
 }
@@ -35,49 +84,50 @@ p {
   margin-bottom: 70px;
 }
 .linje1 {
-  font-size: 30px;
-  margin: 5px;
-}
-.linje2 {
   font-size: 20px;
   margin: 5px;
+  font-family: GT-Haptik-Bold-Oblique, sans-serif;
+}
+.linje2 {
+  font-size: 15px;
+  margin: 5px;
+  font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
 .linje3 {
-  font-size: 15px;
+  font-size: 12px;
   margin: 5px;
   margin-top: 5px;
   margin-bottom: 10px;
+  font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
 /*****************Top 3 billeder*****************/
-.top_kunstnere {
-  display: flex;
-  margin-left: auto;
-  margin-left: auto;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  margin-bottom: 70px;
-}
 .top1 {
   width: 200px;
+  margin-bottom: 20px;
+  margin-left: 80px;
 }
 .top2 {
   width: 200px;
+  margin-bottom: 20px;
+  margin-left: 80px;
 }
 .top3 {
   width: 200px;
+  margin-bottom: 40px;
+  margin-left: 80px;
 }
 /*********************Knap***********************/
 .knap {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 150px;
+  margin-left: 90px;
+  margin-right: 100px;
+  border-style: solid;
 }
 .knap1 {
-  font-size: 25px;
+  font-size: 20px;
   color: #1c1f40;
+  font-family: GT-Haptik-Bold, sans-serif;
 }
 
 /*********************Opdeler********************/
@@ -86,18 +136,25 @@ p {
 }
 /**************Dette års kunstnere***************/
 .overskrift2 {
-  margin-left: 90px;
-  font-size: 40px;
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: MieSpecial-Regular, sans-serif;
 }
 .my-image {
   width: 200px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
-.kunstnere {
+.kunstner_tekst {
+  margin-left: 40px;
+  font-family: GT-Haptik-Bold-Oblique, sans-serif;
+}
+/*.kunstnere {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-left: 50px;
   margin-right: 50px;
-}
+}*/
 /*********************Pop up*******************/
 .popup {
   display: none;
@@ -113,9 +170,8 @@ p {
 
 .popup-content {
   background-color: #ffd689;
-  margin: 15% auto;
+  margin: 100px 10px;
   padding: 20px;
-  border: 1px solid #888;
   max-width: 600px;
 }
 .content-wrapper {
@@ -138,29 +194,22 @@ p {
 
 h2 {
   font-size: 24px;
+  font-family: GT-Haptik-Bold-Oblique, sans-serif;
+  margin-bottom: 5px;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
-}
-
-a {
-  color: #1c1f40;
-  text-decoration: none;
-  border-style: solid;
-  border-color: #1c1f40;
-  padding: 10px;
-  text-align: center;
+  font-family: GT-Haptik-Regular, sans-serif;
 }
 
 .close-btn {
   color: black;
-  margin-top: 210px;
-  margin-right: 405px;
+  margin-top: 100px;
+  margin-right: 30px;
   float: inline-end;
   font-size: 50px;
-  font-weight: bold;
   cursor: pointer;
 }
 

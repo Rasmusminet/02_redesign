@@ -228,4 +228,9 @@ footer {
     margin-bottom: 50%;
     margin-top: 5%;
   }
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20%;
+  }
 }

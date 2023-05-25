@@ -43,7 +43,7 @@ burgerMenu.addEventListener("click", function () {
     }, 0);
 })();
 
-/************************************ */
+/****************Pop up til program******************** */
 function showPopup(title, description, spotifyLink, imageUrl) {
   var popup = document.getElementById("popup");
   var popupImage = document.getElementById("popup-image");

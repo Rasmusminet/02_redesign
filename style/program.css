@@ -1,4 +1,5 @@
-/****************Fonte**************************/
+/*************************************************************************************************************/
+/**Fonte**/
 @font-face {
   font-family: "MieSpecial-Regular";
   src: url(/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/MieSpecial-Regular.ttf);
@@ -17,8 +18,8 @@
   font-family: "GT-Haptik-Bold";
   src: url(/fonte/font-GT_Haptik/GT-Haptik-Bold.otf);
 }
-
-/****************Hero img***********************/
+/*************************************************************************************************************/
+/**Hero img**/
 .programbillede {
   position: absolute;
   top: 0;
@@ -48,18 +49,19 @@ h1 {
   top: 10%;
 }
 
-/****************Opdeler**********************/
+/*************************************************************************************************************/
 .del_1 {
   margin-top: 240px;
   margin-bottom: 90px;
 }
 /*************************************************************************************************************/
-/***********************Alle kunstnere*****************/
+/**Oversigt over dagene**/
 .dage_overskrift {
   font-size: 18px;
   color: #f8f2b1;
   margin-top: 40px;
   margin-bottom: 2px;
+  font-family: GT-Haptik-Bold, sans-serif;
 }
 .dag_1 {
   text-align: center;
@@ -88,7 +90,7 @@ h1 {
   margin-bottom: 10px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
-/*****************Top 3 billeder*****************/
+/**Top 3 billeder**/
 .top1 {
   width: 200px;
   margin-bottom: 20px;
@@ -104,7 +106,7 @@ h1 {
   margin-bottom: 40px;
   margin-left: 80px;
 }
-/*********************Knap***********************/
+/**Knap**/
 .knap {
   padding: 20px;
   text-align: center;
@@ -118,13 +120,12 @@ h1 {
   font-family: GT-Haptik-Bold, sans-serif;
 }
 /*************************************************************************************************************/
-/*********************Opdeler********************/
 .img_opdeler {
   width: 100%;
   margin-bottom: 20px;
 }
 /*************************************************************************************************************/
-/**************Dette års kunstnere***************/
+/**Dette års kunstnere**/
 .overskrift2 {
   margin-left: 15px;
   font-size: 20px;
@@ -139,13 +140,7 @@ h1 {
   margin-left: 40px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
-/*.kunstnere {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 50px;
-  margin-right: 50px;
-}*/
-/*********************Pop up*******************/
+/**Pop up**/
 .popup {
   display: none;
   position: fixed;
@@ -157,7 +152,6 @@ h1 {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 .popup-content {
   background-color: #ffd689;
   margin: 100px 10px;
@@ -167,33 +161,27 @@ h1 {
 .content-wrapper {
   display: flex;
 }
-
 .image-container {
   margin-right: 20px;
 }
-
 .image-container img {
   max-width: 100%;
   height: auto;
   width: 200px;
 }
-
 .text-container {
   flex-grow: 1;
 }
-
 h2 {
   font-size: 24px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
   margin-bottom: 5px;
 }
-
 p {
   font-size: 16px;
   line-height: 1.5;
   font-family: GT-Haptik-Regular, sans-serif;
 }
-
 .close-btn {
   color: black;
   margin-top: 100px;
@@ -202,7 +190,6 @@ p {
   font-size: 50px;
   cursor: pointer;
 }
-
 .close-btn:hover,
 .close-btn:focus {
   color: #c7cd4b;

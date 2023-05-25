@@ -320,3 +320,116 @@ li span {
 /****************footer****************/
 
 /*****************************website*********************/
+@media only screen and (min-width: 800px) {
+  .logo {
+    width: 450px;
+    height: 450px;
+    z-index: 5;
+    margin-inline: auto;
+
+    margin-top: 6%;
+  }
+  .marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 70px;
+    overflow-x: hidden;
+    background-color: #f8f2b1;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 19%;
+    font-family: "MieSpecial-Regular";
+  }
+
+  .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 30s linear infinite;
+    margin-top: 1%;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  h1 {
+    font-family: "GT-Haptik-Regular";
+    text-align: center;
+    margin-top: 10%;
+    font-size: 4rem;
+  }
+  .kunstner {
+    width: 70%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .kkk {
+    margin-bottom: 20%;
+    margin-top: 20%;
+    padding: 10%;
+  }
+  .cownt {
+    width: 100%;
+    height: 90vh;
+    background-image: url("/img/cowntdown.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  :root {
+    --smaller: 0.75;
+  }
+
+  .container {
+    color: #f8f2b1;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "GT-Haptik-Regular";
+    margin-top: -42%;
+  }
+
+  .h1count {
+    font-weight: normal;
+    letter-spacing: 1.1rem;
+    text-transform: uppercase;
+  }
+  #headline {
+    font-family: "GT-Haptik-Regular";
+    font-size: 350%;
+  }
+
+  .lii {
+    display: inline-block;
+    font-size: 1;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  .bileder1 {
+    width: 50%;
+    border-radius: 25px;
+    margin-inline: auto;
+  }
+  .bileder2 {
+    width: 50%;
+    border-radius: 25px;
+    margin-inline: auto;
+  }
+  .underbileder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

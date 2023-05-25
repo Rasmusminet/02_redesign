@@ -140,6 +140,42 @@ h1 {
   margin-left: 40px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
+/**Figurer**/
+.figur1 {
+  width: 30%;
+  z-index: -3;
+  margin-top: 30%;
+  margin-left: 55%;
+  position: absolute;
+}
+.figur2 {
+  width: 40%;
+  z-index: -1;
+  margin-top: -2%;
+  margin-left: -5%;
+  position: absolute;
+}
+.figur3 {
+  width: 40%;
+  z-index: -1;
+  margin-top: 30%;
+  margin-left: -10%;
+  position: absolute;
+}
+.figur4 {
+  width: 40%;
+  z-index: -1;
+  margin-top: 40%;
+  margin-left: 30%;
+  position: absolute;
+}
+.figur5 {
+  width: 40%;
+  z-index: -1;
+  margin-top: 60%;
+  margin-left: 45%;
+  position: absolute;
+}
 /**Pop up**/
 .popup {
   display: none;

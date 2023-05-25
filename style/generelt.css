@@ -14,6 +14,7 @@ body {
   background-color: #489f21;
   background-blend-mode: screen;
 }
+/*********************burger menu ****************************/
 #burger-menu {
   cursor: pointer;
   height: 27px;
@@ -100,7 +101,6 @@ body {
 }
 #menu li {
   list-style: none;
-  font-family: "GT-Haptik-Regular";
 }
 #menu a {
   color: #000;

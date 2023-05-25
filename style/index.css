@@ -54,6 +54,7 @@ img {
   background-image: url("/img/cowntdown.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 .forsideslutbiled {
   width: 100%;
@@ -62,7 +63,9 @@ img {
   background-size: cover;
   background-position: center;
   margin-top: 10%;
+  background-attachment: fixed;
 }
+
 .kunstner {
   width: 70%;
   margin-inline: auto;

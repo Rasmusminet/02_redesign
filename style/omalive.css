@@ -193,13 +193,13 @@ h2 {
 /* Tidligere festival */
 .tidligerefestivaler_text {
     padding: 50px 20px;
-    margin-top: -68px;
+    margin-top: -27px;
 }
 
 .figur21 {
     width: 14%;
-    top: 287%;
-    left: 1%;
+    top: 303%;
+    left: 3%;
     z-index: -1;
     position: absolute;
     height: auto;
@@ -207,7 +207,7 @@ h2 {
 
 .figur3 {
     width: 16%;
-    top: 309%;
+    top: 326%;
     left: 82%;
     z-index: -1;
     position: absolute;
@@ -216,7 +216,7 @@ h2 {
 
 .figur8 {
     width: 17%;
-    top: 369%;
+    top: 387%;
     left: 1%;
     z-index: -1;
     position: absolute;

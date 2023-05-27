@@ -244,7 +244,7 @@ li span {
     white-space: nowrap;
     will-change: transform;
     animation: marquee 30s linear infinite;
-    margin-top: 1%;
+    margin-top: 0.7%;
   }
 
   @keyframes marquee {

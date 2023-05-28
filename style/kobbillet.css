@@ -379,7 +379,7 @@ h3 {
     grid-row: 3;
     position: relative;
     width: auto;
-    height: 10%;
+    height: 25%;
   }
 
   .knap_partout {
@@ -393,7 +393,7 @@ h3 {
     grid-row: 5;
     position: relative;
     width: auto;
-    height: 10%;
+    height: 20%;
   }
 
   .knap_torsdag {
@@ -407,7 +407,7 @@ h3 {
     grid-row: 5;
     position: relative;
     width: auto;
-    height: 10%;
+    height: 20%;
   }
 
   .knap_fredag {
@@ -421,7 +421,7 @@ h3 {
     grid-row: 5;
     position: relative;
     width: auto;
-    height: 10%;
+    height: 20%;
   }
 
   .knap_lordag {

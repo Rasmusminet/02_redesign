@@ -47,6 +47,7 @@ h1 {
   color: #f8f2b1;
   font-size: 3rem;
   top: 10%;
+  text-align: center;
 }
 
 /*************************************************************************************************************/
@@ -59,8 +60,7 @@ h1 {
 .dage_overskrift {
   font-size: 18px;
   color: #f8f2b1;
-  margin-top: 40px;
-  margin-bottom: 2px;
+  text-align: center;
   font-family: GT-Haptik-Bold, sans-serif;
 }
 .dag_1 {
@@ -235,12 +235,203 @@ p {
 /*************************************************************************************************************/
 @media only screen and (min-width: 800px) {
   .logo {
-    width: 450px;
-    height: 450px;
-    z-index: 5;
-    margin-inline: auto;
+    width: 7%;
+    height: auto;
+    position: relative;
+    left: 45%;
+    top: 10px;
+  }
+  /**her laves der grid til website**/
 
-    margin-top: 6%;
+  .programbillede {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(#00000080, #00000080), url("/img/program1.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .programtekst {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    color: #f8f2b1;
+    font-family: MieSpecial-Regular, sans-serif;
+    font-size: 150px;
+  }
+  /*************************************************************************************************************/
+  .del_1 {
+    margin-top: 480px;
+    margin-bottom: 90px;
+  }
+  /*************************************************************************************************************/
+  /**Oversigt over dagene**/
+  .dage_overskrift {
+    font-size: 25px;
+    color: #f8f2b1;
+    text-align: center;
+    font-family: GT-Haptik-Bold, sans-serif;
+  }
+
+  .linje1 {
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+
+    font-family: GT-Haptik-Bold-Oblique, sans-serif;
+  }
+  .linje2 {
+    font-size: 23px;
+    margin: 5px;
+    font-family: GT-Haptik-Bold-Oblique, sans-serif;
+    text-align: center;
+  }
+  .linje3 {
+    font-size: 18px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: GT-Haptik-Bold-Oblique, sans-serif;
+    text-align: center;
+  }
+  /**Top 3 billeder**/
+  .top_kunstnere {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .top1 {
+    width: 200px;
+    margin: 30px;
+  }
+  .top2 {
+    width: 200px;
+    margin: 30px;
+  }
+  .top3 {
+    width: 200px;
+    margin: 30px;
+  }
+  /**Knap**/
+  .knap {
+    padding: 20px;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-style: solid;
+    margin-top: 30px;
+  }
+  /*************************************************************************************************************/
+  /**Dette års kunstnere**/
+  .overskrift2 {
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: MieSpecial-Regular, sans-serif;
+  }
+  .kunstnere {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  /**Figurer**/
+  .figur1 {
+    width: 15%;
+    z-index: -3;
+    margin-top: 10%;
+    margin-left: 7%;
+    position: absolute;
+  }
+  .figur2 {
+    width: 15%;
+    z-index: -1;
+    margin-top: -1%;
+    margin-left: -2%;
+    position: absolute;
+  }
+  .figur3 {
+    width: 15%;
+    z-index: -1;
+    margin-top: 3%;
+    margin-left: -2%;
+    position: absolute;
+  }
+  .figur4 {
+    width: 15%;
+    z-index: -1;
+    margin-top: 12%;
+    margin-left: 5%;
+    position: absolute;
+  }
+  .figur5 {
+    width: 15%;
+    z-index: -1;
+    margin-top: 15%;
+    margin-left: 3%;
+    position: absolute;
+  }
+  .del_2 {
+    margin-bottom: 150px;
+  }
+  /**Pop up**/
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .popup-content {
+    background-color: #ffd689;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 1000px;
+  }
+  .content-wrapper {
+    display: flex;
+  }
+  .image-container {
+    margin-right: 50px;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 2000px;
+    padding: 20px;
+    margin-top: 19px;
+  }
+  .text-container {
+    flex-grow: 1;
+  }
+  h2 {
+    font-size: 30px;
+    font-family: GT-Haptik-Bold-Oblique, sans-serif;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: GT-Haptik-Regular, sans-serif;
+  }
+  .close-btn {
+    color: black;
+    margin-top: 100px;
+    margin-right: 210px;
+    float: inline-end;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .close-btn:hover,
+  .close-btn:focus {
+    color: #c7cd4b;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
-/**her laves der grid til website**/

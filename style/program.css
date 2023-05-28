@@ -246,7 +246,7 @@ p {
   .programbillede {
     position: absolute;
     width: 100%;
-    height: 70vh;
+    height: auto;
     background-image: linear-gradient(#00000080, #00000080), url("/img/program1.jpg");
     background-size: cover;
     background-position: center;
@@ -257,13 +257,14 @@ p {
     position: absolute;
     text-align: center;
     left: 30%;
+    top: 25%;
     color: #f8f2b1;
     font-family: MieSpecial-Regular, sans-serif;
     font-size: 150px;
   }
   /*************************************************************************************************************/
   .del_1 {
-    margin-top: 480px;
+    margin-top: 900px;
     margin-bottom: 90px;
   }
   /*************************************************************************************************************/

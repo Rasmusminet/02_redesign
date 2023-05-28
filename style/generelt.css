@@ -7,6 +7,7 @@ body {
   background-blend-mode: screen;
   font-family: GT-Haptik, sans-serif;
 }
+
 /*********************burger menu ****************************/
 body {
   margin: 0;
@@ -16,6 +17,7 @@ body {
   background-color: #489f21;
   background-blend-mode: screen;
 }
+
 #burger-menu {
   cursor: pointer;
   height: 27px;
@@ -27,6 +29,7 @@ body {
   top: 0;
   right: 0;
 }
+
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
@@ -36,10 +39,12 @@ body {
   position: absolute;
   transition: 0.3s ease-in-out;
 }
+
 #burger-menu span:before,
 #burger-menu span:after {
   content: "";
 }
+
 #burger-menu span:before {
   left: 0px;
   top: -10px;
@@ -47,30 +52,35 @@ body {
 
   background: #f8f2b1;
 }
+
 #burger-menu span {
   right: 0px;
   top: 13px;
   width: 27px;
   background: #f8f2b1;
 }
+
 #burger-menu span:after {
   left: 0px;
   top: 10px;
   width: 27px;
   background: #f8f2b1;
 }
+
 #burger-menu.close span:before {
   top: 0px;
   transform: rotate(90deg);
   width: 27px;
   background: rgb(0, 0, 0);
 }
+
 #burger-menu.close span {
   transform: rotate(-45deg);
   top: 13px;
   width: 27px;
   background: rgb(0, 0, 0);
 }
+
 #burger-menu.close span:after {
   top: 0px;
   left: 0;
@@ -78,6 +88,7 @@ body {
   opacity: 0;
   width: 0;
 }
+
 #menu {
   z-index: 1;
   min-width: 100%;
@@ -91,19 +102,23 @@ body {
   padding-top: 20px;
   transition: all 0.3s ease-in-out;
 }
+
 #menu.overlay {
   visibility: visible;
   opacity: 1;
   padding-top: 100px;
   background: #f8f2b1;
 }
+
 #menu ul {
   padding: 0;
 }
+
 #menu li {
   list-style: none;
   font-family: "GT-Haptik-Regular";
 }
+
 #menu a {
   color: #000;
   display: block;
@@ -111,6 +126,7 @@ body {
   margin-bottom: 30px;
   text-decoration: none;
 }
+
 footer {
   background-color: #f8f2b1;
   padding: 20px;
@@ -150,6 +166,7 @@ footer {
   border: 1px solid #000;
   margin-left: 10%;
 }
+
 .bunfigur img {
   width: 80%;
   height: auto;
@@ -157,15 +174,30 @@ footer {
   margin-top: 15%;
   margin-bottom: 15%;
 }
+
 .bunlinks {
   color: #000;
   font-size: 20px;
 }
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 30%;
+  height: auto;
+  position: absolute;
+  left: -4%;
+  top: 506%;
+  margin-left: 35%;
+  gap: 10%;
+}
+
 @media only screen and (min-width: 800px) {
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   footer {
     background-color: #f8f2b1;
     padding: 20px;
@@ -182,6 +214,7 @@ footer {
     font-size: 25px;
     margin-left: 13.5%;
   }
+
   .newsletter p {
     font-size: 15px;
   }
@@ -211,6 +244,7 @@ footer {
     border: 1px solid #000;
     margin-left: 10%;
   }
+
   .bunfigur img {
     width: 60%;
     height: auto;
@@ -219,6 +253,7 @@ footer {
     margin-bottom: 15%;
     margin-left: 30%;
   }
+
   .bunlinks {
     color: #000;
     font-size: 20px;
@@ -228,6 +263,7 @@ footer {
     margin-bottom: 50%;
     margin-top: 5%;
   }
+
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -238,6 +274,7 @@ footer {
     top: 605%;
     margin-left: 35%;
   }
+
   .si {
     padding: 10%;
   }

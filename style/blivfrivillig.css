@@ -1,0 +1,113 @@
+/*************************************************************************************************************/
+/**Fonte**/
+@font-face {
+  font-family: "MieSpecial-Regular";
+  src: url(/fonte/wetransfer_mie-regular-ttf_2023-05-12_1245/MieSpecial-Regular.ttf);
+}
+
+@font-face {
+  font-family: "GT-Haptik-Regular";
+  src: url(/fonte/font-GT_Haptik/GT-Haptik-Regular.otf);
+}
+
+@font-face {
+  font-family: "GT-Haptik-Bold-Oblique";
+  src: url(/fonte/font-GT_Haptik/GT-Haptik-Bold-Oblique.otf);
+}
+@font-face {
+  font-family: "GT-Haptik-Bold";
+  src: url(/fonte/font-GT_Haptik/GT-Haptik-Bold.otf);
+}
+/*************************************************************************************************************/
+/**Hero img**/
+.bf_billede {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-image: linear-gradient(#00000080, #00000080), url(/img/frivillig1.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+h1 {
+  font-family: MieSpecial-Regular, sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+.logo {
+  width: 12%;
+  height: auto;
+  position: relative;
+  top: 3%;
+  left: 2%;
+}
+.bf_tekst {
+  color: #f8f2b1;
+  font-size: 3rem;
+  top: 10%;
+  text-align: center;
+}
+/*************************************************************************************************************/
+.del_1 {
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
+/*************************************************************************************************************/
+.overskrift_1 {
+  font-size: 15px;
+  font-family: GT-Haptik-Bold, sans-serif;
+  margin: 20px;
+}
+h3 {
+  font-size: 15px;
+  margin: 20px;
+  font-family: GT-Haptik-Bold-Oblique, sans-serif;
+}
+.underrubrik {
+  font-size: 15px;
+  margin: 20px;
+  font-family: GT-Haptik, sans-serif;
+  line-height: 1.5;
+}
+details {
+  font-size: 15px;
+  margin: 20px;
+  font-family: GT-Haptik-Bold-Oblique, sans-serif;
+}
+/**Knap**/
+.knap {
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 25px;
+}
+.knap1 {
+  font-size: 20px;
+  color: #1c1f40;
+  font-family: GT-Haptik-Bold, sans-serif;
+}
+/*************************************************************************************************************/
+.img_opdeler {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/*************************************************************************************************************/
+.overskrift_2 {
+  font-size: 20px;
+  font-family: MieSpecial-Regular, sans-serif;
+  margin: 20px;
+}
+p {
+  font-size: 15px;
+  margin: 20px;
+  font-family: GT-Haptik, sans-serif;
+  line-height: 1.5;
+}
+/*************************************************************************************************************/
+.overskrift_3 {
+  font-size: 20px;
+  font-family: MieSpecial-Regular, sans-serif;
+  margin: 20px;
+}

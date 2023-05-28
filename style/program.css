@@ -233,3 +233,14 @@ p {
   cursor: pointer;
 }
 /*************************************************************************************************************/
+@media only screen and (min-width: 800px) {
+  .logo {
+    width: 450px;
+    height: 450px;
+    z-index: 5;
+    margin-inline: auto;
+
+    margin-top: 6%;
+  }
+}
+/**her laves der grid til website**/

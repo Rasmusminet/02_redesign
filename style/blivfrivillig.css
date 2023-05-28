@@ -49,6 +49,14 @@ h1 {
   top: 10%;
   text-align: center;
 }
+.img_hero-text {
+  width: 57%;
+  height: auto;
+  aspect-ratio: 1272/521;
+  position: relative;
+  top: -1px;
+}
+
 /*************************************************************************************************************/
 .del_1 {
   margin-top: 130px;

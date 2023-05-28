@@ -9,6 +9,11 @@
     src: url(/fonte/font-GT_Haptik/GT-Haptik-Regular.otf);
 }
 
+@font-face {
+    font-family: "GT-Haptik-Light";
+    src: url(/fonte/font-GT_Haptik/GT-Haptik-Light.otf);
+}
+
 /* generelt */
 
 img {
@@ -115,10 +120,6 @@ h2 {
     cursor: pointer;
 }
 
-.forening_text:hover {
-    opacity: 0.8;
-}
-
 .forening_text {
     padding: 50px 20px;
     margin-top: -104px;
@@ -187,19 +188,20 @@ h2 {
     right: 10px;
     font-size: 24px;
     cursor: pointer;
+    font-family: GT-Haptik-Light, sans-serif;
 }
 
 
 /* Tidligere festival */
 .tidligerefestivaler_text {
     padding: 50px 20px;
-    margin-top: -68px;
+    margin-top: -27px;
 }
 
 .figur21 {
     width: 14%;
-    top: 287%;
-    left: 1%;
+    top: 303%;
+    left: 3%;
     z-index: -1;
     position: absolute;
     height: auto;
@@ -207,7 +209,7 @@ h2 {
 
 .figur3 {
     width: 16%;
-    top: 309%;
+    top: 326%;
     left: 82%;
     z-index: -1;
     position: absolute;
@@ -216,7 +218,7 @@ h2 {
 
 .figur8 {
     width: 17%;
-    top: 369%;
+    top: 387%;
     left: 1%;
     z-index: -1;
     position: absolute;
@@ -341,7 +343,6 @@ h2 {
         background-image: linear-gradient(#00000080, #00000080), url("/img/omalive1.jpg");
         background-size: cover;
         background-position: center;
-        z-index: -1;
     }
 
     .hero-text {
@@ -349,7 +350,6 @@ h2 {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
         text-align: center;
         color: #f8f2b1;
         font-family: MieSpecial-Regular, sans-serif;
@@ -374,7 +374,6 @@ h2 {
     }
 
 
-
     /* Om Alive - paragraf og billeder */
     .om_alive_text {
         display: grid;
@@ -390,28 +389,45 @@ h2 {
         align-items: center;
     }
 
+    .om_alive_img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 25px;
+        position: relative;
+        right: 10%;
+    }
+
     .content-container {
         display: flex;
         flex-direction: column;
     }
 
-    .content-container p {
-        margin: 0 0 10px;
+    .content-container h3 {
+        margin: 0 auto 10px;
+        padding-right: 20%;
+        text-align: start;
+        position: relative;
+        left: 34%;
+        font-size: 2rem;
     }
 
-    .om_alive_img {
-        max-width: 60%;
-        height: auto;
-        border-radius: 25px;
+    .content-container p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin: 0 auto 10px;
+        padding-right: 27%;
+        text-align: start;
+        position: relative;
+        left: 34%;
     }
 
     .figur23 {
-        width: 30%;
+        width: 29%;
         top: 69%;
-        left: 56%;
+        left: 54%;
         z-index: -1;
         position: absolute;
-        height: auto;
+        height: 181vh;
     }
 
 
@@ -423,12 +439,7 @@ h2 {
         left: 25%;
     }
 
-    .forening_text {
-        position: relative;
-        cursor: pointer;
-    }
-
-    .forening_text:hover {
+    .forening_text img:hover {
         opacity: 0.8;
     }
 
@@ -445,6 +456,7 @@ h2 {
         padding-right: 824px;
         text-align: center;
         font-style: italic;
+        cursor: default;
     }
 
 
@@ -500,6 +512,7 @@ h2 {
         font-size: 50px;
         cursor: pointer;
         font-weight: lighter;
+        font-family: GT-Haptik-Light, sans-serif;
     }
 
 
@@ -527,16 +540,17 @@ h2 {
 
     .figur21 {
         width: 10%;
-        top: 344.5%;
-        left: 14.8%;
+        top: 351.5%;
+        left: 15.8%;
         z-index: -1;
         position: absolute;
         height: auto;
     }
 
+
     .figur3 {
         width: 14%;
-        top: 375%;
+        top: 380%;
         left: 67%;
         z-index: -1;
         position: absolute;
@@ -545,7 +559,7 @@ h2 {
 
     .figur8 {
         width: 14%;
-        top: 448%;
+        top: 456%;
         left: 38%;
         z-index: -1;
         position: absolute;

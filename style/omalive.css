@@ -137,6 +137,7 @@ h2 {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+
 }
 
 /* pop-up */
@@ -200,7 +201,7 @@ h2 {
 
 .figur21 {
     width: 14%;
-    top: 303%;
+    top: 298%;
     left: 3%;
     z-index: -1;
     position: absolute;
@@ -209,7 +210,7 @@ h2 {
 
 .figur3 {
     width: 16%;
-    top: 326%;
+    top: 322%;
     left: 82%;
     z-index: -1;
     position: absolute;
@@ -218,7 +219,7 @@ h2 {
 
 .figur8 {
     width: 17%;
-    top: 387%;
+    top: 381%;
     left: 1%;
     z-index: -1;
     position: absolute;
@@ -530,8 +531,8 @@ h2 {
     }
 
     .tidligerefestivaler_text p {
-        font-size: 1.3rem;
-        padding-right: 1129px;
+        font-size: 1.5rem;
+        padding-right: 1060px;
         position: relative;
         left: 17%;
         bottom: 83px;

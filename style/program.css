@@ -235,19 +235,16 @@ p {
 /**************icon************/
 .icons {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  width: 20%;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
   height: auto;
-  position: absolute;
-  left: 40%;
-  top: 930%;
-  margin-left: 30%;
+  position: relative;
+  margin-top: 20%;
+  margin-left: 10%;
 }
 
 .si {
   padding: 10%;
-  width: 80%;
-  height: auto;
 }
 /*************************************************************************************************************/
 @media only screen and (min-width: 800px) {
@@ -456,12 +453,12 @@ p {
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 10%;
+    width: 70%;
     height: auto;
-    position: absolute;
-    left: 40%;
-    top: 600%;
-    margin-left: -40%;
+    position: relative;
+
+    top: -20%;
+    margin-left: 180%;
   }
 
   .si {

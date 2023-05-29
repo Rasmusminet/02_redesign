@@ -435,4 +435,19 @@ p {
     text-decoration: none;
     cursor: pointer;
   }
+  /****************icon************************/
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    top: 600%;
+    margin-left: -40%;
+  }
+
+  .si {
+    padding: 10%;
+  }
 }

@@ -323,11 +323,11 @@ h2 {
 .icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 80%;
+  width: 64%;
   height: auto;
   position: relative;
-  margin-top: 20%;
-  margin-left: 10%;
+  margin-top: 11%;
+  margin-left: 18%;
 }
 
 .si {
@@ -670,8 +670,8 @@ h2 {
     height: auto;
     position: relative;
 
-    margin-top: 5%;
-    margin-left: 220%;
+    margin-top: -15%;
+    margin-left: 195%;
     margin-bottom: 5%;
   }
 

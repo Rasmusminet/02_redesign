@@ -304,7 +304,19 @@ h3 {
 .knap_aarhus-thy:hover {
   background-color: #ffe864;
 }
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 64%;
+  height: auto;
+  position: relative;
+  margin-top: 11%;
+  margin-left: 18%;
+}
 
+.si {
+  padding: 10%;
+}
 /*********************************************** website ********************/
 
 @media only screen and (min-width: 800px) {
@@ -540,5 +552,21 @@ h3 {
     text-align: center;
     margin-top: 150%;
     margin-left: 40%;
+  }
+  /***************footer****************/
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    height: auto;
+    position: relative;
+
+    margin-top: -15%;
+    margin-left: 195%;
+    margin-bottom: 5%;
+  }
+
+  .si {
+    padding: 10%;
   }
 }

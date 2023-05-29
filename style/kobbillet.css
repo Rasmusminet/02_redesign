@@ -361,22 +361,20 @@ h3 {
     top: -1px;
     left: 10%;
   }
-}
 
-@media only screen and (min-width: 800px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   .kob {
-    grid-column: 2 / span3;
+    grid-column: 2;
     grid-row: 1;
     position: relative;
   }
 
   .partout {
-    grid-column: 2 / span3;
+    grid-column: 2;
     grid-row: 3;
     position: relative;
     width: auto;
@@ -430,9 +428,7 @@ h3 {
     grid-row: 5;
     position: relative;
   }
-}
 
-@media only screen and (min-width: 800px) {
   .grid_2-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -445,9 +441,7 @@ h3 {
     width: auto;
     height: 50%;
   }
-}
 
-@media only screen and (min-width: 800px) {
   .grid_3-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -319,6 +319,21 @@ h2 {
   background-position: center;
   background-attachment: fixed;
 }
+/**************icon************/
+.icons {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 20%;
+  height: auto;
+  position: absolute;
+  left: 40%;
+  top: 477%;
+  margin-left: 30%;
+}
+
+.si {
+  padding: 10%;
+}
 
 /*********************desktop version ****************************/
 

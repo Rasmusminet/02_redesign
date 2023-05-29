@@ -407,8 +407,9 @@ li span {
     height: auto;
     position: relative;
 
-    top: -20%;
-    margin-left: 180%;
+    margin-top: 5%;
+    margin-left: 220%;
+    margin-bottom: 5%;
   }
 
   .si {

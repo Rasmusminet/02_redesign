@@ -111,7 +111,7 @@ h3 {
 .partout {
   width: 60%;
   height: auto;
-  margin-top: 10%;
+  margin-top: 50%;
   margin-left: 21.5%;
   margin-right: auto;
   display: block;
@@ -194,7 +194,7 @@ h3 {
 .knap_torsdag {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #466d9f;
+  background-color: #b5cfe3;
   color: #ffffff;
   font-size: 16px;
   border: none;
@@ -361,23 +361,29 @@ h3 {
   }
 
   .kob {
-    grid-column: 2;
-    grid-row: 1;
     position: relative;
   }
 
   .partout {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 4;
     position: relative;
     width: auto;
-    height: 25%;
+    height: 15%;
+    content: url(/billetter/partout-horizontal.png);
+    margin-top: 80%;
+    margin-left: -2%;
+  }
   }
 
   .knap_partout {
-    grid-column: 2;
-    grid-row: 3;
+    grid-column: 1/span 3;
+    grid-row: 4;
     position: relative;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    margin-top: 150%;
   }
 
   .torsdag {
@@ -385,13 +391,19 @@ h3 {
     grid-row: 5;
     position: relative;
     width: auto;
-    height: 20%;
+    height: 50%;
+    margin-left: 26.5%;
+    margin-top: 60%;
   }
 
   .knap_torsdag {
     grid-column: 1;
     grid-row: 5;
     position: relative;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    margin-top: 160%;
   }
 
   .fredag {
@@ -399,13 +411,19 @@ h3 {
     grid-row: 5;
     position: relative;
     width: auto;
-    height: 20%;
+    height: 50%;
+    margin-left: 26.5%;
+    margin-top: 60%;
   }
 
   .knap_fredag {
     grid-column: 2;
     grid-row: 5;
     position: relative;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    margin-top: 160%;
   }
 
   .lordag {
@@ -413,13 +431,19 @@ h3 {
     grid-row: 5;
     position: relative;
     width: auto;
-    height: 20%;
+    height: 50%;
+    margin-left: 26.5%;
+    margin-top: 60%;
   }
 
   .knap_lordag {
     grid-column: 3;
     grid-row: 5;
     position: relative;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    margin-top: 160%;
   }
 
   .grid_2-1 {
@@ -435,9 +459,23 @@ h3 {
     height: 50%;
   }
 
+  .knap_sanketur {
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+  }
+
   .grid_3-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .transport {
+    font-family: GT-Haptik, sans-serif;
+    color: #1c1f40;
   }
 
   .kbh-thy {
@@ -448,11 +486,29 @@ h3 {
     height: 30%;
   }
 
+  .knap_kbh-thy {
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+  }
+
   .aarhus-thy {
     grid-column: 2;
     grid-row: 1;
     position: relative;
     width: auto;
     height: 30%;
+  }
+
+  .knap_aarhus-thy {
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    width: 30%;
+    height: 10%;
+    text-align: center;
   }
 }

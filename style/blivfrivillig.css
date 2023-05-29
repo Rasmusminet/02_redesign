@@ -231,4 +231,19 @@ p {
     font-family: MieSpecial-Regular, sans-serif;
     margin: 20px;
   }
+  /****************icon************************/
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    top: 670%;
+    margin-left: -30%;
+  }
+
+  .si {
+    padding: 10%;
+  }
 }

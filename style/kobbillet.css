@@ -462,4 +462,18 @@ h3 {
     width: auto;
     height: 30%;
   }
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    top: 1200%;
+    margin-left: 35%;
+  }
+
+  .si {
+    padding: 10%;
+  }
 }

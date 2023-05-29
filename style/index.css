@@ -28,7 +28,7 @@ h1 {
 h2 {
   font-family: "GT-Haptik-Regular";
   text-align: center;
-
+  margin-top: 5%;
   margin-bottom: 5%;
   font-size: 2rem;
 }
@@ -132,22 +132,22 @@ img {
 /********************/
 .fugur3 {
   width: 40%;
-  top: 315%;
+  top: 301%;
   left: 60%;
   z-index: -1;
   position: absolute;
 }
 .fugur2 {
   width: 40%;
-  top: 429%;
+  top: 418%;
   left: 7%;
   z-index: -1;
   position: absolute;
 }
 .fugur4 {
-  width: 40%;
-  top: 220%;
-  left: 7%;
+  width: 29%;
+  top: 227%;
+  left: -5%;
   z-index: -1;
   position: absolute;
 }
@@ -407,7 +407,7 @@ li span {
   }
   .fugur4 {
     width: 8%;
-    top: 207%;
+    top: 208%;
     left: 37%;
     z-index: -1;
     position: absolute;

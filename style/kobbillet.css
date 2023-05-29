@@ -311,6 +311,21 @@ h3 {
 .knap_aarhus-thy:hover {
   background-color: #ffe864;
 }
+/**************icon************/
+.icons {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 20%;
+  height: auto;
+  position: absolute;
+  left: 40%;
+  top: 747%;
+  margin-left: 30%;
+}
+
+.si {
+  padding: 10%;
+}
 
 /*********************************************** website ********************/
 

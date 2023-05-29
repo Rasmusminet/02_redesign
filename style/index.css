@@ -101,14 +101,14 @@ img {
 /********************/
 .fugur3 {
   width: 40%;
-  top: 290%;
+  top: 260%;
   left: 60%;
   z-index: -1;
   position: absolute;
 }
 .fugur2 {
   width: 40%;
-  top: 378%;
+  top: 355%;
   left: 7%;
   z-index: -1;
   position: absolute;
@@ -202,6 +202,20 @@ img {
 li span {
   display: block;
   font-size: 4.5rem;
+}
+.icons {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 20%;
+  height: auto;
+  position: absolute;
+  left: 40%;
+  top: 490%;
+  margin-left: 30%;
+}
+
+.si {
+  padding: 10%;
 }
 
 @media all and (max-width: 768px) {

@@ -469,6 +469,15 @@ h2 {
     cursor: default;
   }
 
+  .forening_text h2 {
+    position: relative;
+    left: 35%;
+    font-size: 2.3rem;
+    padding-right: 824px;
+    text-align: center;
+    cursor: default;
+  }
+
   .popup-button {
     display: block;
     position: absolute;

@@ -30,6 +30,7 @@
   background-size: cover;
   background-position: center;
   z-index: -1;
+  background-attachment: fixed;
 }
 h1 {
   font-family: MieSpecial-Regular, sans-serif;
@@ -123,6 +124,13 @@ h1 {
 .img_opdeler {
   width: 100%;
   margin-bottom: 20px;
+  width: 100%;
+  height: 80vh;
+  background-image: url("/img/program2.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 10%;
+  background-attachment: fixed;
 }
 /*************************************************************************************************************/
 /**Dette års kunstnere**/
@@ -449,8 +457,7 @@ p {
     text-decoration: none;
     cursor: pointer;
   }
-  /****************icon************************/
-
+  /***************footer****************/
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

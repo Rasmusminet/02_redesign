@@ -18,6 +18,9 @@ h1 {
   margin-top: 10%;
   font-size: 2rem;
 }
+.sund {
+  margin-top: 10%;
+}
 .overskrif {
   margin-top: 30%;
   margin-bottom: 10%;
@@ -26,7 +29,16 @@ h2 {
   font-family: "GT-Haptik-Regular";
   text-align: center;
   margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 2rem;
+  color: #1d1f3c;
+}
+h3 {
+  font-family: "GT-Haptik-Regular";
+
+  color: #1d1f3c;
+
+  font-size: 1.5rem;
 }
 p {
   margin-bottom: 10px;
@@ -36,23 +48,42 @@ p {
   margin-top: 6%;
   margin-bottom: 6%;
 }
-.bliv {
+.blivvv {
   display: inline-block;
   padding: 10px 20px;
   background-color: #107a3e;
   color: #ffffff;
+  font-size: 25px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 20%;
+
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.blivv {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #107a3e;
+
   font-size: 30px;
   border: none;
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  margin-left: 15%;
-  margin-top: 20%;
-  margin-bottom: 10%;
+  margin-left: -1%;
+  margin-bottom: 20%;
+  margin-top: -20%;
 }
-
-.bliv:hover {
+.blivv:hover {
+  background-color: #094423;
+}
+.blivvv:hover {
   background-color: #094423;
 }
 
@@ -95,21 +126,28 @@ img {
   margin-inline: auto;
 }
 .kkk {
-  margin-bottom: 20%;
-  margin-top: 20%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 /********************/
 .fugur3 {
   width: 40%;
-  top: 260%;
+  top: 301%;
   left: 60%;
   z-index: -1;
   position: absolute;
 }
 .fugur2 {
   width: 40%;
-  top: 355%;
+  top: 418%;
   left: 7%;
+  z-index: -1;
+  position: absolute;
+}
+.fugur4 {
+  width: 29%;
+  top: 227%;
+  left: -5%;
   z-index: -1;
   position: absolute;
 }
@@ -206,11 +244,11 @@ li span {
 .icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 80%;
+  width: 64%;
   height: auto;
   position: relative;
-  margin-top: 20%;
-  margin-left: 10%;
+  margin-top: 11%;
+  margin-left: 18%;
 }
 
 .si {
@@ -367,37 +405,61 @@ li span {
     margin-left: 10%;
     margin-right: 20%;
   }
+  .fugur4 {
+    width: 8%;
+    top: 208%;
+    left: 37%;
+    z-index: -1;
+    position: absolute;
+  }
   .fugur3 {
     width: 20%;
-    top: 340%;
+    top: 358%;
     left: 30%;
     z-index: -1;
     position: absolute;
   }
   .fugur2 {
     width: 20%;
-    top: 400%;
+    top: 440%;
     left: 7%;
     z-index: -1;
     position: absolute;
   }
-  .bliv {
+  .blivvv {
     display: inline-block;
     padding: 10px 20px;
     background-color: #107a3e;
     color: #ffffff;
-    font-size: 60px;
+    font-size: 50px;
     border: none;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin-left: 33%;
-    margin-top: 10%;
+    margin-left: 43%;
+    margin-top: 5%;
     margin-bottom: 5%;
   }
+  .blivv {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #107a3e;
 
-  .bliv:hover {
+    font-size: 30px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 120%;
+    margin-bottom: 20%;
+    margin-top: -20%;
+  }
+  .blivv:hover {
+    background-color: #094423;
+  }
+  .blivvv:hover {
     background-color: #094423;
   }
   .icons {
@@ -407,8 +469,9 @@ li span {
     height: auto;
     position: relative;
 
-    top: -20%;
-    margin-left: 180%;
+    margin-top: -15%;
+    margin-left: 195%;
+    margin-bottom: 5%;
   }
 
   .si {

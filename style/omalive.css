@@ -80,12 +80,19 @@ h2 {
   aspect-ratio: 1272/521;
   position: relative;
   top: -1px;
+  z-index: 2;
 }
 
 /* Om Alive - paragraf og billeder */
 .om_alive_text {
   padding: 50px 20px;
   margin-top: 132px;
+}
+
+.om_alive_text h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1D1F3C;
 }
 
 .om_alive_text p {
@@ -102,11 +109,11 @@ h2 {
 
 .figur23 {
   width: 68%;
-  top: 51%;
+  top: 54%;
   left: 11%;
   z-index: -1;
   position: absolute;
-  height: 194%;
+  height: 220%;
 }
 
 /* Om forening */
@@ -125,6 +132,12 @@ h2 {
   margin-top: -104px;
 }
 
+.forening_text h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1D1F3C;
+}
+
 .popup-button {
   display: block;
   position: absolute;
@@ -132,7 +145,8 @@ h2 {
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
-  background-color: #f8f2b1;
+  background-color: #107a3e;
+  color: white;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -171,15 +185,15 @@ h2 {
 }
 
 .popup h2 {
-  font-size: 19px;
+  font-size: 1rem;
   margin-bottom: 10px;
+  color: #1D1F3C;
+  text-align: center;
 }
 
 .popup p {
-  font-size: 16px;
-  padding-right: 7px;
-  text-align: justify;
-  word-spacing: -3.5px;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .close {
@@ -197,10 +211,16 @@ h2 {
   margin-top: -27px;
 }
 
+.tidligerefestivaler_text h2 {
+  font-size: 2rem;
+  color: #1D1F3C;
+  text-align: center;
+}
+
 .figur21 {
-  width: 14%;
-  top: 298%;
-  left: 3%;
+  width: 11%;
+  top: 331%;
+  left: 21%;
   z-index: -1;
   position: absolute;
   height: auto;
@@ -208,7 +228,7 @@ h2 {
 
 .figur3 {
   width: 16%;
-  top: 322%;
+  top: 359%;
   left: 82%;
   z-index: -1;
   position: absolute;
@@ -217,7 +237,7 @@ h2 {
 
 .figur8 {
   width: 17%;
-  top: 381%;
+  top: 419%;
   left: 1%;
   z-index: -1;
   position: absolute;
@@ -225,10 +245,6 @@ h2 {
 }
 
 /* carousel galleri */
-
-* {
-  box-sizing: border-box;
-}
 
 /* Slideshow container */
 .slideshow-container {
@@ -319,15 +335,16 @@ h2 {
   background-position: center;
   background-attachment: fixed;
 }
+
 /**************icon************/
 .icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 80%;
+  width: 64%;
   height: auto;
   position: relative;
-  margin-top: 20%;
-  margin-left: 10%;
+  margin-top: 11%;
+  margin-left: 18%;
 }
 
 .si {
@@ -337,6 +354,7 @@ h2 {
 /*********************desktop version ****************************/
 
 @media only screen and (min-width: 800px) {
+
   /* hero / header */
   .logo {
     width: 25%;
@@ -413,12 +431,12 @@ h2 {
     flex-direction: column;
   }
 
-  .content-container h3 {
+  .content-container h2 {
     margin: 0 auto 10px;
     padding-right: 20%;
-    text-align: start;
+    text-align: center;
     position: relative;
-    left: 34%;
+    left: 30%;
     font-size: 2rem;
   }
 
@@ -438,7 +456,7 @@ h2 {
     left: 54%;
     z-index: -1;
     position: absolute;
-    height: 181vh;
+    height: 172vh;
   }
 
   .forening_text img {
@@ -455,32 +473,25 @@ h2 {
 
   .forening_text {
     padding: 50px 20px;
-    margin-top: -104px;
+    margin-top: -146px;
   }
 
-  .forening_text h3 {
+  .forening_text h2 {
     position: relative;
     top: 666px;
     left: 29%;
     font-size: 2.3rem;
     padding-right: 824px;
     text-align: center;
-    font-style: italic;
     cursor: default;
   }
 
   .popup-button {
-    display: block;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: #f8f2b1;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+    display: none;
+  }
+
+  .popup-button:hover {
+    background-color: #094423;
   }
 
   /* pop-up */
@@ -530,16 +541,15 @@ h2 {
     margin-top: 325px;
   }
 
-  .tidligerefestivaler_text h3 {
-    font-size: 2.3rem;
+  .tidligerefestivaler_text h2 {
+    font-size: 2rem;
     position: relative;
     top: -74px;
-    left: 17%;
   }
 
   .tidligerefestivaler_text p {
     font-size: 1.5rem;
-    padding-right: 1060px;
+    padding-right: 1077px;
     position: relative;
     left: 17%;
     bottom: 83px;
@@ -548,8 +558,8 @@ h2 {
 
   .figur21 {
     width: 10%;
-    top: 351.5%;
-    left: 15.8%;
+    top: 343.5%;
+    left: 34.8%;
     z-index: -1;
     position: absolute;
     height: auto;
@@ -557,8 +567,8 @@ h2 {
 
   .figur3 {
     width: 14%;
-    top: 380%;
-    left: 67%;
+    top: 351%;
+    left: 75%;
     z-index: -1;
     position: absolute;
     height: auto;
@@ -566,8 +576,8 @@ h2 {
 
   .figur8 {
     width: 14%;
-    top: 456%;
-    left: 38%;
+    top: 427%;
+    left: 47%;
     z-index: -1;
     position: absolute;
     height: auto;
@@ -584,13 +594,8 @@ h2 {
     max-width: 392px;
     position: relative;
     margin: auto;
-    left: 11%;
-    bottom: 200px;
-  }
-
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
+    left: 18.7%;
+    bottom: 370px;
   }
 
   /* Next & previous buttons */
@@ -654,6 +659,8 @@ h2 {
     background-position: center;
     background-attachment: fixed;
   }
+
+  /***************footer****************/
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -661,8 +668,9 @@ h2 {
     height: auto;
     position: relative;
 
-    top: -20%;
-    margin-left: 180%;
+    margin-top: -15%;
+    margin-left: 195%;
+    margin-bottom: 5%;
   }
 
   .si {

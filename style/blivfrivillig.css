@@ -252,12 +252,12 @@ p {
   .knap1 {
     font-size: 20px;
     color: #1c1f40;
-    font-family: GT-Haptik-Bold, sans-serif;
+    font-family: GT-Haptik, sans-serif;
   }
   /*************************************************************************************************************/
   .overskrift_2 {
     font-size: 30px;
-    font-family: MieSpecial-Regular, sans-serif;
+    font-family: GT-Haptik, sans-serif;
     margin: 20px;
   }
   p {

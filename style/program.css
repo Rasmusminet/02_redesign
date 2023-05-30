@@ -112,9 +112,9 @@
   border-style: solid;
 }
 .knap1 {
-  font-size: 20px;
+  font-size: 1.5rem;
   color: #1c1f40;
-  font-family: GT-Haptik, sans-serif;
+  font-family: GT-Haptik-Bold, sans-serif;
 }
 /*************************************************************************************************************/
 .img_opdeler {
@@ -350,7 +350,7 @@ p {
   .overskrift2 {
     margin-left: 40px;
     font-size: 40px;
-    font-family: MieSpecial-Regular, sans-serif;
+    font-family: GT-Haptik-Regular, sans-serif;
   }
   .kunstnere {
     display: grid;
@@ -408,7 +408,7 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
   }
   .popup-content {
-    background-color: #ffd689;
+    background-color: #f8f2b1;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -454,7 +454,8 @@ p {
     text-decoration: none;
     cursor: pointer;
   }
-  /***************footer****************/
+  /*************************************************************************************************************/
+  /**Footer**/
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

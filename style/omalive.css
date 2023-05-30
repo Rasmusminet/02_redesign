@@ -77,9 +77,10 @@ h2 {
 .img_hero-text {
   width: 57%;
   height: auto;
-  aspect-ratio: 1272/521;
+  aspect-ratio: 1709.6/377.6;
   position: relative;
   top: -1px;
+  z-index: 2;
 }
 
 /* Om Alive - paragraf og billeder */
@@ -337,6 +338,7 @@ h2 {
 /*********************desktop version ****************************/
 
 @media only screen and (min-width: 800px) {
+
   /* hero / header */
   .logo {
     width: 25%;
@@ -379,7 +381,7 @@ h2 {
   .img_hero-text {
     width: 57%;
     height: auto;
-    aspect-ratio: 1272/521;
+    aspect-ratio: 1709.6/377.6;
     position: relative;
     top: -1px;
     left: 10%;

@@ -39,7 +39,6 @@
   background-position: center;
   z-index: -1;
 }
-
 .hero-text {
   display: flex;
   position: absolute;
@@ -64,6 +63,7 @@
   position: relative;
   top: -1px;
 }
+
 /*************************************************************************************************************/
 .del_1 {
   margin-top: 220px;

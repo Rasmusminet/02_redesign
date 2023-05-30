@@ -177,9 +177,7 @@ h2 {
 
 .popup p {
   font-size: 16px;
-  padding-right: 7px;
-  text-align: justify;
-  word-spacing: -3.5px;
+  text-align: left;
 }
 
 .close {
@@ -319,6 +317,7 @@ h2 {
   background-position: center;
   background-attachment: fixed;
 }
+
 /**************icon************/
 .icons {
   display: grid;
@@ -337,6 +336,7 @@ h2 {
 /*********************desktop version ****************************/
 
 @media only screen and (min-width: 800px) {
+
   /* hero / header */
   .logo {
     width: 25%;
@@ -654,6 +654,7 @@ h2 {
     background-position: center;
     background-attachment: fixed;
   }
+
   /***************footer****************/
   .icons {
     display: grid;

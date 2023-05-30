@@ -426,11 +426,17 @@ li span {
     z-index: -1;
     position: absolute;
   }
+  .blivv a {
+    color: #ffffff;
+  }
+  .blivvv a {
+    color: #ffffff;
+  }
   .blivvv {
     display: inline-block;
     padding: 10px 20px;
     background-color: #107a3e;
-    color: #ffffff;
+
     font-size: 50px;
     border: none;
     border-radius: 4px;

@@ -127,6 +127,12 @@ h2 {
   text-align: center;
 }
 
+.forening_text h2 {
+  padding: 0px 0px;
+  margin-top: 50px;
+  text-align: center;
+}
+
 .popup-button {
   display: block;
   position: absolute;
@@ -420,18 +426,16 @@ h2 {
     margin: 40px auto 40px;
     text-align: start;
     position: relative;
-    left: 50%;
     font-size: 3rem;
   }
 
   .content-container p {
+    margin: 40px auto 40px;
     font-size: 1.5rem;
     line-height: 1.5;
     margin: 0 auto 10px;
-    padding-right: 27%;
     text-align: start;
     position: relative;
-    left: 34%;
   }
 
   .figur23 {
@@ -472,9 +476,7 @@ h2 {
 
   .forening_text h2 {
     position: relative;
-    left: 25%;
     font-size: 2.3rem;
-    padding-right: 424px;
     text-align: center;
     cursor: default;
     margin-top: 10px;

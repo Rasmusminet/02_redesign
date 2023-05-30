@@ -293,13 +293,14 @@ p {
     color: #f8f2b1;
     text-align: center;
     font-family: GT-Haptik-Bold, sans-serif;
+    margin-bottom: 2px;
+    margin-top: 50px;
   }
 
   .linje1 {
     font-size: 30px;
     margin: 5px;
     text-align: center;
-
     font-family: GT-Haptik-Bold-Oblique, sans-serif;
   }
   .linje2 {

@@ -85,7 +85,7 @@ h2 {
 /* Om Alive - paragraf og billeder */
 .om_alive_text {
   padding: 50px 20px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .om_alive_text p {
@@ -118,17 +118,19 @@ h2 {
 .forening_text {
   position: relative;
   cursor: pointer;
+  margin-bottom: 27px;
 }
 
 .forening_text {
   padding: 50px 20px;
-  margin-top: -104px;
+  margin-top: -50px;
+  text-align: center;
 }
 
 .popup-button {
   display: block;
   position: absolute;
-  bottom: 10px;
+  bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
@@ -388,7 +390,7 @@ h2 {
   /* Om Alive - paragraf og billeder */
   .om_alive_text {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     padding: 50px 20px;
     margin-top: 537px;
@@ -411,15 +413,15 @@ h2 {
   .content-container {
     display: flex;
     flex-direction: column;
+    margin-inline: auto;
   }
 
   .content-container h3 {
-    margin: 0 auto 10px;
-    padding-right: 20%;
+    margin: 40px auto 40px;
     text-align: start;
     position: relative;
-    left: 34%;
-    font-size: 2rem;
+    left: 50%;
+    font-size: 3rem;
   }
 
   .content-container p {
@@ -446,7 +448,6 @@ h2 {
     width: 50%;
     height: auto;
     position: relative;
-    left: 25%;
   }
 
   .forening_text img:hover {
@@ -455,7 +456,7 @@ h2 {
 
   .forening_text {
     padding: 50px 20px;
-    margin-top: -104px;
+    margin-top: -14px;
   }
 
   .forening_text h3 {
@@ -471,17 +472,18 @@ h2 {
 
   .forening_text h2 {
     position: relative;
-    left: 35%;
+    left: 25%;
     font-size: 2.3rem;
-    padding-right: 824px;
+    padding-right: 424px;
     text-align: center;
     cursor: default;
+    margin-top: 10px;
   }
 
   .popup-button {
     display: block;
     position: absolute;
-    bottom: 10px;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
@@ -490,6 +492,7 @@ h2 {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 100px;
   }
 
   /* pop-up */
@@ -663,7 +666,7 @@ h2 {
     background-position: center;
     background-attachment: fixed;
   }
-  .icons {
+  /* .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 70%;
@@ -677,4 +680,5 @@ h2 {
   .si {
     padding: 10%;
   }
+} */
 }

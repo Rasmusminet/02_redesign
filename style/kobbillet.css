@@ -392,28 +392,28 @@ h3 {
     grid-column: 2;
     grid-row: 4;
     position: relative;
-    width: 50%;
+    width: 70%;
     height: auto;
     margin-top: 10%;
-    margin-left: -70%;
+    margin-left: 50%;
   }
 
   .knap_partout {
     grid-column: 1 / span 3;
     grid-row: 4;
     position: relative;
-    width: 10%;
+    width: 15%;
     height: 10%;
     text-align: center;
-    margin-top: 23%;
-    margin-left: 37%;
+    margin-top: 3%;
+    margin-left: 78%;
   }
 
   .torsdag {
     grid-column: 1;
     grid-row: 5;
     position: relative;
-    width: auto;
+    width: 30%;
     height: auto;
     margin-left: 15%;
     margin-top: 10%;
@@ -434,10 +434,10 @@ h3 {
     grid-column: 2;
     grid-row: 5;
     position: relative;
-    width: auto;
+    width: 30%;
     height: auto;
-    margin-left: -40%;
-    margin-top: 14%;
+    margin-left: 70%;
+    margin-top: -62%;
   }
 
   .knap_fredag {
@@ -447,7 +447,7 @@ h3 {
     width: 20%;
     height: 5%;
     text-align: center;
-    margin-top: 108%;
+    margin-top: -146%;
     margin-left: -29%;
   }
 
@@ -455,10 +455,10 @@ h3 {
     grid-column: 3;
     grid-row: 5;
     position: relative;
-    width: auto;
+    width: 30%;
     height: auto;
     margin-left: -158.5%;
-    margin-top: 34%;
+    margin-top: -61%;
   }
 
   .knap_lordag {
@@ -490,8 +490,8 @@ h3 {
     grid-column: 1;
     grid-row: 1;
     position: relative;
-    width: auto;
-    height: 50%;
+    width: 40%;
+    height: auto;
     margin-top: 20%;
   }
 
@@ -525,8 +525,8 @@ h3 {
     grid-column: 1;
     grid-row: 1;
     position: relative;
-    width: auto;
-    height: 50%;
+    width: 20%;
+    height: auto;
     margin-left: 25%;
     margin-top: 20%;
   }
@@ -546,8 +546,8 @@ h3 {
     grid-column: 2;
     grid-row: 1;
     position: relative;
-    width: auto;
-    height: 50%;
+    width: 20%;
+    height: auto;
     margin-left: 25%;
     margin-top: 20%;
   }

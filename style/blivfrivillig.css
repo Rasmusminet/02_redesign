@@ -101,7 +101,7 @@ details {
 .knap1 {
   font-size: 20px;
   color: #1c1f40;
-  font-family: GT-Haptik-Bold, sans-serif;
+  font-family: GT-Haptik, sans-serif;
 }
 /*************************************************************************************************************/
 .img_opdeler {
@@ -118,7 +118,7 @@ details {
 /*************************************************************************************************************/
 .overskrift_2 {
   font-size: 20px;
-  font-family: MieSpecial-Regular, sans-serif;
+  font-family: GT-Haptik-Bold, sans-serif;
   margin: 20px;
 }
 p {
@@ -139,7 +139,7 @@ p {
 }
 .overskrift_3 {
   font-size: 20px;
-  font-family: MieSpecial-Regular, sans-serif;
+  font-family: GT-Haptik-Bold, sans-serif;
   margin: 20px;
 }
 .img_bund {
@@ -164,6 +164,7 @@ p {
 
 .si {
   padding: 10%;
+  width: 50%;
 }
 /**********************************************Website***************************************************************/
 @media only screen and (min-width: 800px) {

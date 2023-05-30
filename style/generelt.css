@@ -2,21 +2,14 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-image: url(/img/baggrund.png);
-  background-color: #489f21;
+  background-image: url(/img/Gradient\ baggrund\ 1.png);
+  background-size: 100% 100%;
   background-blend-mode: screen;
   font-family: GT-Haptik, sans-serif;
+  background-repeat: no-repeat;
 }
 
-/*********************burger menu ****************************/
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  background-image: url(/img/baggrund.png);
-  background-color: #489f21;
-  background-blend-mode: screen;
-}
+/*********************burgr menu ****************************/
 
 #burger-menu {
   cursor: pointer;

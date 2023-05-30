@@ -381,6 +381,8 @@ h3 {
 
   .kob {
     position: relative;
+    font-family: GT-Haptik, sans-serif;
+    font-size: 2rem;
     margin-top: 25%;
     margin-left: 35%;
     font-size: 300%;
@@ -481,7 +483,8 @@ h3 {
     position: relative;
     margin-top: 5%;
     margin-left: -90%;
-    font-size: 300%;
+    font-family: GT-Haptik, sans-serif;
+    font-size: 2rem;
     white-space: nowrap;
   }
 
@@ -517,7 +520,8 @@ h3 {
     grid-row: 6;
     margin-top: -243%;
     margin-left: 10%;
-    font-size: 300%;
+    font-family: GT-Haptik, sans-serif;
+    font-size: 2rem;
     white-space: nowrap;
   }
 

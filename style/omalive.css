@@ -486,10 +486,6 @@ h2 {
     cursor: default;
   }
 
-  .popup-button {
-    display: none;
-  }
-
   .popup-button:hover {
     background-color: #094423;
   }

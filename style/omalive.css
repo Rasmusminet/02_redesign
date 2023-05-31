@@ -344,6 +344,7 @@ h3 {
 /*********************desktop version ****************************/
 
 @media only screen and (min-width: 800px) {
+
   /* hero / header */
   .logo {
     width: 25%;
@@ -456,7 +457,7 @@ h3 {
   }
 
   .forening_text img:hover {
-    opacity: 0.8;
+    filter: brightness(0.5);
   }
 
   .forening_text {

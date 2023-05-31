@@ -40,7 +40,7 @@ img {
   left: 0;
   width: 100%;
   height: 30vh;
-  background-image: linear-gradient(#00000080, #00000080), url(/img/kobbillet1.jpg);
+  background-image: linear-gradient(#00000080, #00000080), url(/img/billet0.svg);
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -109,7 +109,7 @@ h3 {
 }
 
 .partout {
-  width: 60%;
+  width: 50%;
   height: auto;
   margin-top: 50%;
   margin-left: 21.5%;

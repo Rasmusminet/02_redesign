@@ -104,18 +104,20 @@
   margin-left: 80px;
 }
 /**Knap**/
-.knap {
-  padding: 20px;
-  text-align: center;
-  margin-left: 90px;
-  margin-right: 100px;
-  border-style: solid;
-  border-color: #1c1f40;
-}
+
 .knap1 {
-  font-size: 1.5rem;
-  color: #1c1f40;
-  font-family: GT-Haptik-Bold, sans-serif;
+  display: block;
+  bottom: 10px;
+  padding: 15px;
+  background-color: #f8f2b1;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 620px;
+  margin-right: 620px;
+  text-align: center;
 }
 /*************************************************************************************************************/
 .img_opdeler {
@@ -340,14 +342,23 @@ p {
     margin: 30px;
   }
   /**Knap**/
-  .knap {
-    padding: 20px;
+  .knap1 {
+    display: block;
+    bottom: 10px;
+    padding: 15px;
+    background-color: #f8f2b1;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 620px;
+    margin-right: 620px;
     text-align: center;
-    margin-left: 600px;
-    margin-right: 600px;
-    border-style: solid;
-    margin-top: 30px;
   }
+
+  /**Dette års kunstnere**/
+
   /*************************************************************************************************************/
   /**Dette års kunstnere**/
   .overskrift2 {

@@ -27,26 +27,27 @@ img {
 }
 
 .logo {
-  width: 12%;
+  width: 33%;
   height: auto;
   position: relative;
-  top: 3%;
-  left: 2%;
+  left: 3%;
+  top: 4px;
 }
 
-.billetbillede {
+/* hero-image */
+.hero-image {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 30vh;
-  background-image: linear-gradient(#00000080, #00000080), url(/img/billet0.svg);
+  background-image: linear-gradient(#00000080, #00000080), url("/img/kobbillet1.jpg");
   background-size: cover;
   background-position: center;
   z-index: -1;
 }
 
-.billettekst {
+.hero-text {
   display: flex;
   position: absolute;
   top: 50%;
@@ -57,18 +58,20 @@ img {
   font-family: MieSpecial-Regular, sans-serif;
 }
 
-.billettekst h1 {
-  font-size: 250%;
-  margin: 0 112;
+.hero-text h1 {
+  font-size: 36px;
+  margin: 0 7px;
   padding: 0;
 }
 
-.billetbillede_tekst {
-  width: 100%;
+.img_hero-text {
+  width: 57%;
   height: auto;
-  aspect-ratio: 1043.59/345.82;
+  aspect-ratio: 1336/435;
   position: relative;
-  top: 10px;
+  top: -1px;
+  z-index: 2;
+  margin-top: 0%;
 }
 
 .kobbillet2 {

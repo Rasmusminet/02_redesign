@@ -347,7 +347,7 @@ h3 {
     top: 10px;
   }
 
-  .billetbillede {
+  .hero-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -358,7 +358,7 @@ h3 {
     background-position: center;
   }
 
-  .billettekst {
+  .hero-text {
     display: flex;
     position: absolute;
     top: 50%;
@@ -368,7 +368,7 @@ h3 {
     font-family: MieSpecial-Regular, sans-serif;
   }
 
-  .billettekst h1 {
+  .hero-text h1 {
     font-size: 140px;
     margin: 0 7px;
     padding: 0;
@@ -377,7 +377,7 @@ h3 {
     left: 10%;
   }
 
-  .billetbillede_tekst {
+  .img_hero-text {
     width: 57%;
     height: auto;
     aspect-ratio: 1272/521;

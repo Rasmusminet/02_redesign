@@ -9,6 +9,18 @@ body {
   background-repeat: no-repeat;
 }
 
+html {
+  --primary: #1d1f3c;
+  --font-size: 2rem;
+  --font-family: GT-Haptik-Regular, sans-serif;
+}
+
+h2 {
+  color: var(--primary);
+  --font-size: 2rem;
+  font-family: var(--font-family);
+}
+
 /*********************burgr menu ****************************/
 
 #burger-menu {
@@ -119,6 +131,7 @@ body {
   margin-bottom: 30px;
   text-decoration: none;
 }
+
 /**********************Footer**************************************/
 footer {
   background-color: #f8f2b1;
@@ -181,9 +194,11 @@ footer {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
 }
+
 .sid {
   padding: 3%;
 }
+
 .bunp {
   margin-left: -4%;
 }

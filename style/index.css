@@ -262,6 +262,7 @@ li span {
 
 .si {
   padding: 10%;
+  width: 70%;
 }
 
 @media all and (max-width: 768px) {

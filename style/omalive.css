@@ -92,7 +92,7 @@ h2 {
 .om_alive_text h2 {
   text-align: center;
   font-size: 2rem;
-  color: #1D1F3C;
+  color: #1d1f3c;
 }
 
 .om_alive_text p {
@@ -135,7 +135,7 @@ h2 {
 .forening_text h2 {
   text-align: center;
   font-size: 2rem;
-  color: #1D1F3C;
+  color: #1d1f3c;
 }
 
 .popup-button {
@@ -187,7 +187,7 @@ h2 {
 .popup h2 {
   font-size: 1rem;
   margin-bottom: 10px;
-  color: #1D1F3C;
+  color: #1d1f3c;
   text-align: center;
 }
 
@@ -213,7 +213,7 @@ h2 {
 
 .tidligerefestivaler_text h2 {
   font-size: 2rem;
-  color: #1D1F3C;
+  color: #1d1f3c;
   text-align: center;
 }
 
@@ -349,12 +349,12 @@ h2 {
 
 .si {
   padding: 10%;
+  width: 70%;
 }
 
 /*********************desktop version ****************************/
 
 @media only screen and (min-width: 800px) {
-
   /* hero / header */
   .logo {
     width: 25%;

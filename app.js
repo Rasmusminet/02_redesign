@@ -9,40 +9,6 @@ burgerMenu.addEventListener("click", function () {
   overlay.classList.toggle("overlay");
 });
 
-/*********************cuwnt down ************************* */
-(function () {
-  const second = 1000,
-    minute = second * 60,
-    hour = minute * 60,
-    day = hour * 24;
-
-  //I'm adding this section so I don't have to keep updating this pen every year :-)
-  //remove this if you don't need it
-  let today = new Date(),
-    dd = String(today.getDate()).padStart(2, "0"),
-    mm = String(today.getMonth() + 1).padStart(2, "0"),
-    yyyy = today.getFullYear(),
-    nextYear = yyyy + 1,
-    dayMonth = "07/27/",
-    birthday = dayMonth + yyyy;
-
-  today = mm + "/" + dd + "/" + yyyy;
-  if (today > birthday) {
-    birthday = dayMonth + nextYear;
-  }
-  //end
-
-  const countDown = new Date(birthday).getTime(),
-    x = setInterval(function () {
-      const now = new Date().getTime(),
-        distance = countDown - now;
-
-      (document.getElementById("days").innerText = Math.floor(distance / day)), (document.getElementById("hours").innerText = Math.floor((distance % day) / hour)), (document.getElementById("minutes").innerText = Math.floor((distance % hour) / minute)), (document.getElementById("seconds").innerText = Math.floor((distance % minute) / second));
-
-      //seconds
-    }, 0);
-})();
-
 /****************Pop up til program******************** */
 function showPopup(title, description, spotifyLink, imageUrl) {
   var popup = document.getElementById("popup");
@@ -80,12 +46,52 @@ function closePopup() {
 }
 
 /********************* pop-up til FAQ ***************************** */
-function openPopup() {
-  document.getElementById("popup").style.display = "block";
+function openPopup1() {
+  document.getElementById("popup1").style.display = "block";
 }
 
-function closePopup() {
-  document.getElementById("popup").style.display = "none";
+function closePopup1() {
+  document.getElementById("popup1").style.display = "none";
+}
+
+function openPopup2() {
+  document.getElementById("popup2").style.display = "block";
+}
+
+function closePopup2() {
+  document.getElementById("popup2").style.display = "none";
+}
+
+function openPopup3() {
+  document.getElementById("popup3").style.display = "block";
+}
+
+function closePopup3() {
+  document.getElementById("popup3").style.display = "none";
+}
+
+function openPopup4() {
+  document.getElementById("popup4").style.display = "block";
+}
+
+function closePopup4() {
+  document.getElementById("popup4").style.display = "none";
+}
+
+function openPopup5() {
+  document.getElementById("popup5").style.display = "block";
+}
+
+function closePopup5() {
+  document.getElementById("popup5").style.display = "none";
+}
+
+function openPopup6() {
+  document.getElementById("popup6").style.display = "block";
+}
+
+function closePopup6() {
+  document.getElementById("popup6").style.display = "none";
 }
 
 /********************* Carousel Galleri til om Alive ************************* */

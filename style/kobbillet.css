@@ -476,6 +476,7 @@ h3 {
     margin-left: 5%;
     font-family: GT-Haptik, sans-serif;
     font-size: 2rem;
+    text-align: center;
   }
 
   .sanketur {
@@ -484,7 +485,7 @@ h3 {
     width: 50%;
     height: auto;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 25%;
   }
 
   .knap_sanketur {
@@ -492,7 +493,7 @@ h3 {
     width: 10%;
     height: 5%;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 47%;
     margin-top: 2%;
   }
 
@@ -504,7 +505,7 @@ h3 {
   .transport {
     position: relative;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 37%;
     font-family: GT-Haptik, sans-serif;
     font-size: 2rem;
   }

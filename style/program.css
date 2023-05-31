@@ -14,10 +14,12 @@
   font-family: "GT-Haptik-Bold-Oblique";
   src: url(/fonte/font-GT_Haptik/GT-Haptik-Bold-Oblique.otf);
 }
+
 @font-face {
   font-family: "GT-Haptik-Bold";
   src: url(/fonte/font-GT_Haptik/GT-Haptik-Bold.otf);
 }
+
 /*************************************************************************************************************/
 /**Hero img**/
 .programbillede {
@@ -32,6 +34,7 @@
   z-index: -1;
   background-attachment: fixed;
 }
+
 .logo {
   width: 12%;
   height: auto;
@@ -39,6 +42,7 @@
   top: 4%;
   left: 4%;
 }
+
 .programtekst {
   color: #f8f2b1;
   font-size: 40px;
@@ -52,6 +56,7 @@
   margin-top: 150px;
   margin-bottom: 90px;
 }
+
 /*************************************************************************************************************/
 /**Oversigt over dagene**/
 .dage_overskrift {
@@ -60,26 +65,32 @@
   text-align: center;
   font-family: GT-Haptik-Bold, sans-serif;
 }
+
 .dag_1 {
   text-align: center;
 }
+
 .dag_2 {
   text-align: center;
 }
+
 .dag_3 {
   text-align: center;
   margin-bottom: 70px;
 }
+
 .linje1 {
   font-size: 20px;
   margin: 5px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
+
 .linje2 {
   font-size: 15px;
   margin: 5px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
+
 .linje3 {
   font-size: 12px;
   margin: 5px;
@@ -87,36 +98,44 @@
   margin-bottom: 10px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
+
 /**Top 3 billeder**/
 .top1 {
   width: 200px;
   margin-bottom: 20px;
   margin-left: 80px;
 }
+
 .top2 {
   width: 200px;
   margin-bottom: 20px;
   margin-left: 80px;
 }
+
 .top3 {
   width: 200px;
   margin-bottom: 40px;
   margin-left: 80px;
 }
+
 /**Knap**/
-.knap {
-  padding: 20px;
-  text-align: center;
-  margin-left: 90px;
-  margin-right: 100px;
-  border-style: solid;
-  border-color: #1c1f40;
-}
+
 .knap1 {
-  font-size: 1.5rem;
-  color: #1c1f40;
-  font-family: GT-Haptik-Bold, sans-serif;
+  display: block;
+  bottom: 10px;
+  padding: 15px;
+  background-color: #f8f2b1;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 620px;
+  margin-right: 620px;
+  text-align: center;
+  text-decoration: none;
 }
+
 /*************************************************************************************************************/
 .img_opdeler {
   width: 100%;
@@ -129,6 +148,7 @@
   margin-top: 10%;
   background-attachment: fixed;
 }
+
 /*************************************************************************************************************/
 /**Dette års kunstnere**/
 .overskrift2 {
@@ -137,15 +157,22 @@
   font-family: GT-Haptik-Regular, sans-serif;
   color: #1d1f3c;
 }
+
 .my-image {
   width: 200px;
   margin-left: 40px;
   margin-top: 20px;
 }
+
+.my-image:hover {
+  filter: brightness(0.5);
+}
+
 .kunstner_tekst {
   margin-left: 40px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
 }
+
 /**Figurer**/
 .figur1 {
   width: 30%;
@@ -154,6 +181,7 @@
   margin-left: 55%;
   position: absolute;
 }
+
 .figur2 {
   width: 40%;
   z-index: -1;
@@ -161,6 +189,7 @@
   margin-left: -5%;
   position: absolute;
 }
+
 .figur3 {
   width: 40%;
   z-index: -1;
@@ -168,6 +197,7 @@
   margin-left: -10%;
   position: absolute;
 }
+
 .figur4 {
   width: 40%;
   z-index: -1;
@@ -175,6 +205,7 @@
   margin-left: 30%;
   position: absolute;
 }
+
 .figur5 {
   width: 40%;
   z-index: -1;
@@ -182,6 +213,7 @@
   margin-left: 45%;
   position: absolute;
 }
+
 /**Pop up**/
 .popup {
   display: none;
@@ -194,36 +226,44 @@
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .popup-content {
   background-color: #ffd689;
   margin: 100px 10px;
   padding: 20px;
   max-width: 600px;
 }
+
 .content-wrapper {
   display: flex;
 }
+
 .image-container {
   margin-right: 20px;
 }
+
 .image-container img {
   max-width: 100%;
   height: auto;
   width: 200px;
 }
+
 .text-container {
   flex-grow: 1;
 }
+
 h2 {
   font-size: 24px;
   font-family: GT-Haptik-Bold-Oblique, sans-serif;
   margin-bottom: 5px;
 }
+
 p {
   font-size: 16px;
   line-height: 1.5;
   font-family: GT-Haptik-Regular, sans-serif;
 }
+
 .close-btn {
   color: black;
   margin-top: 100px;
@@ -232,12 +272,14 @@ p {
   font-size: 50px;
   cursor: pointer;
 }
+
 .close-btn:hover,
 .close-btn:focus {
   color: #c7cd4b;
   text-decoration: none;
   cursor: pointer;
 }
+
 /**************icon************/
 .icons {
   display: grid;
@@ -253,6 +295,7 @@ p {
   padding: 10%;
   width: 50%;
 }
+
 /*************************************************************************************************************/
 @media only screen and (min-width: 800px) {
   .logo {
@@ -262,6 +305,7 @@ p {
     left: 45%;
     top: 10px;
   }
+
   /**her laves der grid til website**/
 
   .programbillede {
@@ -283,11 +327,13 @@ p {
     font-family: MieSpecial-Regular, sans-serif;
     font-size: 150px;
   }
+
   /*************************************************************************************************************/
   .del_1 {
     margin-top: 900px;
     margin-bottom: 90px;
   }
+
   /*************************************************************************************************************/
   /**Oversigt over dagene**/
   .dage_overskrift {
@@ -305,12 +351,14 @@ p {
     text-align: center;
     font-family: GT-Haptik-Bold-Oblique, sans-serif;
   }
+
   .linje2 {
     font-size: 23px;
     margin: 5px;
     font-family: GT-Haptik-Bold-Oblique, sans-serif;
     text-align: center;
   }
+
   .linje3 {
     font-size: 18px;
     margin: 5px;
@@ -319,6 +367,7 @@ p {
     font-family: GT-Haptik-Bold-Oblique, sans-serif;
     text-align: center;
   }
+
   /**Top 3 billeder**/
   .top_kunstnere {
     width: 70%;
@@ -327,27 +376,40 @@ p {
     margin-right: auto;
     text-align: center;
   }
+
   .top1 {
     width: 200px;
     margin: 30px;
   }
+
   .top2 {
     width: 200px;
     margin: 30px;
   }
+
   .top3 {
     width: 200px;
     margin: 30px;
   }
+
   /**Knap**/
-  .knap {
-    padding: 20px;
+  .knap1 {
+    display: block;
+    bottom: 10px;
+    padding: 15px;
+    background-color: #f8f2b1;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 620px;
+    margin-right: 620px;
     text-align: center;
-    margin-left: 600px;
-    margin-right: 600px;
-    border-style: solid;
-    margin-top: 30px;
   }
+
+  /**Dette års kunstnere**/
+
   /*************************************************************************************************************/
   /**Dette års kunstnere**/
   .overskrift2 {
@@ -355,10 +417,12 @@ p {
     font-size: 40px;
     font-family: GT-Haptik-Regular, sans-serif;
   }
+
   .kunstnere {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   /**Figurer**/
   .figur1 {
     width: 15%;
@@ -367,6 +431,7 @@ p {
     margin-left: 7%;
     position: absolute;
   }
+
   .figur2 {
     width: 15%;
     z-index: -1;
@@ -374,6 +439,7 @@ p {
     margin-left: -2%;
     position: absolute;
   }
+
   .figur3 {
     width: 15%;
     z-index: -1;
@@ -381,6 +447,7 @@ p {
     margin-left: -2%;
     position: absolute;
   }
+
   .figur4 {
     width: 15%;
     z-index: -1;
@@ -388,6 +455,7 @@ p {
     margin-left: 5%;
     position: absolute;
   }
+
   .figur5 {
     width: 15%;
     z-index: -1;
@@ -395,9 +463,11 @@ p {
     margin-left: 3%;
     position: absolute;
   }
+
   .del_2 {
     margin-bottom: 150px;
   }
+
   /**Pop up**/
   .popup {
     display: none;
@@ -410,6 +480,7 @@ p {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
   }
+
   .popup-content {
     background-color: #f8f2b1;
     margin-left: auto;
@@ -417,12 +488,15 @@ p {
     padding: 20px;
     max-width: 1000px;
   }
+
   .content-wrapper {
     display: flex;
   }
+
   .image-container {
     margin-right: 50px;
   }
+
   .image-container img {
     max-width: 100%;
     height: auto;
@@ -430,19 +504,23 @@ p {
     padding: 20px;
     margin-top: 19px;
   }
+
   .text-container {
     flex-grow: 1;
   }
+
   h2 {
     font-size: 30px;
     font-family: GT-Haptik-Bold-Oblique, sans-serif;
     margin-bottom: 5px;
   }
+
   p {
     font-size: 20px;
     line-height: 1.5;
     font-family: GT-Haptik-Regular, sans-serif;
   }
+
   .close-btn {
     color: black;
     margin-top: 100px;
@@ -451,12 +529,14 @@ p {
     font-size: 50px;
     cursor: pointer;
   }
+
   .close-btn:hover,
   .close-btn:focus {
     color: #c7cd4b;
     text-decoration: none;
     cursor: pointer;
   }
+
   /*************************************************************************************************************/
   /**Footer**/
   .icons {

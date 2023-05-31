@@ -53,8 +53,8 @@ p {
 .blivvv {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #107a3e;
-  color: #ffffff;
+  background-color: #f8f2b1;
+
   font-size: 25px;
   border: none;
   border-radius: 4px;
@@ -70,7 +70,7 @@ p {
 .blivv {
   display: inline-block;
   padding: 5px 10px;
-  background-color: #107a3e;
+  background-color: #f8f2b1;
 
   font-size: 30px;
   border: none;
@@ -83,16 +83,18 @@ p {
   margin-top: -20%;
 }
 .blivv:hover {
-  background-color: #094423;
+  background-color: #fff268;
 }
 .blivvv:hover {
-  background-color: #094423;
+  background-color: #fff268;
 }
 .blivv a {
-  color: #ffffff;
+  color: #000000;
+  text-decoration: none;
 }
 .blivvv a {
-  color: #ffffff;
+  color: #000000;
+  text-decoration: none;
 }
 
 /********************img************/
@@ -153,8 +155,8 @@ img {
   position: absolute;
 }
 .fugur4 {
-  width: 29%;
-  top: 227%;
+  width: 38%;
+  top: 233%;
   left: -5%;
   z-index: -1;
   position: absolute;
@@ -262,6 +264,7 @@ li span {
 
 .si {
   padding: 10%;
+  width: 70%;
 }
 
 @media all and (max-width: 768px) {
@@ -331,6 +334,9 @@ li span {
     margin-bottom: 20%;
     margin-top: 20%;
     padding: 10%;
+  }
+  .kkk h2 {
+    margin-bottom: 15%;
   }
   .cownt {
     width: 100%;
@@ -415,9 +421,9 @@ li span {
     margin-right: 20%;
   }
   .fugur4 {
-    width: 8%;
-    top: 208%;
-    left: 37%;
+    width: 14%;
+    top: 206%;
+    left: 25%;
     z-index: -1;
     position: absolute;
   }
@@ -436,47 +442,52 @@ li span {
     position: absolute;
   }
   .blivv a {
-    color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 2.5rem;
   }
   .blivvv a {
-    color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 2rem;
   }
   .blivvv {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #107a3e;
+    background-color: #f8f2b1;
     color: #ffffff;
     font-size: 50px;
     border: none;
     border-radius: 4px;
     text-align: center;
-    text-decoration: none;
+
     cursor: pointer;
-    margin-left: 43%;
+    margin-left: 39%;
     margin-top: 5%;
     margin-bottom: 5%;
   }
   .blivv {
     display: inline-block;
     padding: 5px 10px;
-    background-color: #107a3e;
-
+    background-color: #f8f2b1;
+    width: 140%;
     font-size: 30px;
     border: none;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin-left: 120%;
+    margin-left: 80%;
     margin-bottom: 20%;
     margin-top: -20%;
   }
   .blivv:hover {
-    background-color: #094423;
+    background-color: #fff268;
   }
   .blivvv:hover {
-    background-color: #094423;
+    background-color: #fff268;
   }
+
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

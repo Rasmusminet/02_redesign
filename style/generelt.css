@@ -2,11 +2,23 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-image: url(/img/Gradient\ baggrund\ 1.png);
+  background-image: url(/img/Gradient\ baggrund\ 2..png);
   background-size: 100% 100%;
   background-blend-mode: screen;
   font-family: GT-Haptik, sans-serif;
   background-repeat: no-repeat;
+}
+
+html {
+  --primary: #1d1f3c;
+  --font-size: 2rem;
+  --font-family: GT-Haptik-Regular, sans-serif;
+}
+
+h2 {
+  color: var(--primary);
+  --font-size: 2rem;
+  font-family: var(--font-family);
 }
 
 /*********************burgr menu ****************************/
@@ -119,6 +131,7 @@ body {
   margin-bottom: 30px;
   text-decoration: none;
 }
+
 /**********************Footer**************************************/
 footer {
   background-color: #f8f2b1;
@@ -181,9 +194,11 @@ footer {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
 }
+
 .sid {
   padding: 3%;
 }
+
 .bunp {
   margin-left: -4%;
 }

@@ -705,7 +705,7 @@ h2 {
     background-position: center;
     background-attachment: fixed;
   }
-  /* .icons {
+  .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 70%;
@@ -720,5 +720,4 @@ h2 {
   .si {
     padding: 10%;
   }
-} */
 }

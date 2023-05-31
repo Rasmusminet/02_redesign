@@ -31,10 +31,6 @@ h3 {
   font-family: GT-Haptik-Regular, sans-serif;
 }
 
-h2 {
-  font-family: GT-Haptik-Regular, sans-serif;
-}
-
 /* hero / header */
 .logo {
   width: 33%;
@@ -91,8 +87,6 @@ h2 {
 
 .om_alive_text h2 {
   text-align: center;
-  font-size: 2rem;
-  color: #1d1f3c;
 }
 
 .om_alive_text p {
@@ -134,8 +128,6 @@ h2 {
 
 .forening_text h2 {
   text-align: center;
-  font-size: 2rem;
-  color: #1d1f3c;
 }
 
 .popup-button {
@@ -187,7 +179,6 @@ h2 {
 .popup h2 {
   font-size: 1rem;
   margin-bottom: 10px;
-  color: #1d1f3c;
   text-align: center;
 }
 
@@ -212,8 +203,6 @@ h2 {
 }
 
 .tidligerefestivaler_text h2 {
-  font-size: 2rem;
-  color: #1d1f3c;
   text-align: center;
 }
 
@@ -355,6 +344,7 @@ h2 {
 /*********************desktop version ****************************/
 
 @media only screen and (min-width: 800px) {
+
   /* hero / header */
   .logo {
     width: 25%;
@@ -437,7 +427,6 @@ h2 {
     text-align: center;
     position: relative;
     left: 30%;
-    font-size: 2rem;
   }
 
   .content-container p {
@@ -538,7 +527,6 @@ h2 {
   }
 
   .tidligerefestivaler_text h2 {
-    font-size: 2rem;
     position: relative;
     top: -74px;
   }

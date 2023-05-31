@@ -79,6 +79,15 @@ function closePopup() {
   document.getElementById("popup").style.display = "none";
 }
 
+/********************* pop-up til FAQ ***************************** */
+function openPopup() {
+  document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+
 /********************* Carousel Galleri til om Alive ************************* */
 let slideIndex = 1;
 showSlides(slideIndex);

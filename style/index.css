@@ -335,6 +335,9 @@ li span {
     margin-top: 20%;
     padding: 10%;
   }
+  .kkk h2 {
+    margin-bottom: 15%;
+  }
   .cownt {
     width: 100%;
     height: 90vh;
@@ -418,9 +421,9 @@ li span {
     margin-right: 20%;
   }
   .fugur4 {
-    width: 17%;
-    top: 208%;
-    left: 34%;
+    width: 14%;
+    top: 206%;
+    left: 25%;
     z-index: -1;
     position: absolute;
   }
@@ -441,6 +444,7 @@ li span {
   .blivv a {
     color: #000000;
     text-decoration: none;
+    font-size: 2.5rem;
   }
   .blivvv a {
     color: #000000;
@@ -466,14 +470,14 @@ li span {
     display: inline-block;
     padding: 5px 10px;
     background-color: #f8f2b1;
-
+    width: 140%;
     font-size: 30px;
     border: none;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin-left: 120%;
+    margin-left: 80%;
     margin-bottom: 20%;
     margin-top: -20%;
   }

@@ -107,6 +107,16 @@ details {
   font-size: 16px;
   cursor: pointer;
   text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.figur19 {
+  z-index: -1;
+  position: absolute;
+  left: 5%;
+  width: 30%;
+  bottom: -22%;
 }
 /*************************************************************************************************************/
 .img_opdeler {
@@ -133,6 +143,12 @@ p {
   font-family: GT-Haptik, sans-serif;
   line-height: 1.5;
 }
+.figur23 {
+  width: 40%;
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+}
 /*************************************************************************************************************/
 .img_opdeler2 {
   width: 100%;
@@ -150,6 +166,12 @@ p {
   font-family: GT-Haptik-Regular, sans-serif;
   margin: 20px;
   color: #1d1f3c;
+}
+.figur20 {
+  width: 14%;
+  z-index: -1;
+  position: absolute;
+  left: 76%;
 }
 /*************************************************************************************************************/
 .img_bund {
@@ -266,6 +288,13 @@ p {
   .knap {
     margin-top: 50px;
   }
+  .figur19 {
+    z-index: -1;
+    position: absolute;
+    width: 10%;
+    left: 30%;
+    bottom: -55%;
+  }
 
   /*************************************************************************************************************/
   .overskrift_2 {
@@ -278,11 +307,23 @@ p {
     margin: 20px;
     line-height: 1.5;
   }
+  .figur23 {
+    width: 15%;
+    z-index: -1;
+    position: absolute;
+    left: 75%;
+  }
   /*************************************************************************************************************/
   .overskrift_3 {
     font-size: 30px;
     margin: 20px;
     margin-top: 50px;
+  }
+  .figur20 {
+    width: 8%;
+    z-index: -1;
+    position: absolute;
+    left: 88%;
   }
   /****************icon************************/
   .icons {

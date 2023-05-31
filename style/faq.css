@@ -203,6 +203,31 @@ h2 {
   font-family: GT-Haptik-Light, sans-serif;
 }
 
+/*content container*/
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-top: 140px;
+}
+
+.content-container h3 {
+  text-align: start;
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content-container p {
+  margin: 40px auto 40px;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 auto 10px;
+  text-align: center;
+  position: relative;
+}
+
 /* Tidligere festival */
 .tidligerefestivaler_text {
   padding: 50px 20px;
@@ -491,7 +516,7 @@ h2 {
 
   .forening_textt h2 {
     position: relative;
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     cursor: default;
     margin-top: 10px;
@@ -680,7 +705,7 @@ h2 {
     background-position: center;
     background-attachment: fixed;
   }
-  /* .icons {
+  .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 70%;
@@ -695,5 +720,4 @@ h2 {
   .si {
     padding: 10%;
   }
-} */
 }

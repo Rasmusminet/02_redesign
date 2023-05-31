@@ -431,10 +431,10 @@ h3 {
 
   .knap_torsdag {
     position: relative;
-    width: 26%;
-    height: 6%;
+    width: 28%;
+    height: 8%;
     text-align: center;
-    margin-left: 46%;
+    margin-left: 45%;
     margin-top: 5%;
   }
 
@@ -448,8 +448,8 @@ h3 {
 
   .knap_fredag {
     position: relative;
-    width: 26%;
-    height: 6%;
+    width: 28%;
+    height: 8%;
     text-align: center;
     margin-left: 36%;
     margin-top: 5%;
@@ -465,8 +465,8 @@ h3 {
 
   .knap_lordag {
     position: relative;
-    width: 26%;
-    height: 6%;
+    width: 28%;
+    height: 8%;
     text-align: center;
     margin-left: 22%;
     margin-top: 5%;
@@ -493,7 +493,7 @@ h3 {
   .knap_sanketur {
     position: relative;
     width: 10%;
-    height: 5%;
+    height: 7%;
     text-align: center;
     margin-left: 47%;
     margin-top: 2%;
@@ -522,10 +522,10 @@ h3 {
 
   .knap_kbh-thy {
     position: relative;
-    width: 17%;
-    height: 4%;
+    width: 21%;
+    height: 5%;
     text-align: center;
-    margin-left: 45.5%;
+    margin-left: 43%;
     margin-top: 5%;
   }
 
@@ -539,10 +539,10 @@ h3 {
 
   .knap_aarhus-thy {
     position: relative;
-    width: 17%;
-    height: 4%;
+    width: 21%;
+    height: 5%;
     text-align: center;
-    margin-left: 33%;
+    margin-left: 31%;
     margin-top: 5%;
   }
   /***************footer****************/

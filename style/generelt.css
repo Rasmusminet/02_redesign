@@ -17,6 +17,7 @@ html {
 
 h2 {
   color: var(--primary);
+  --font-size: 2rem;
   font-family: var(--font-family);
 }
 

@@ -36,11 +36,11 @@
 }
 
 .logo {
-  width: 12%;
+  width: 35%;
   height: auto;
   position: relative;
-  top: 4%;
-  left: 4%;
+  margin-top: 4%;
+  left: 3%;
 }
 
 .programtekst {
@@ -130,8 +130,8 @@
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 620px;
-  margin-right: 620px;
+  margin-left: 82px;
+  margin-right: 96px;
   text-align: center;
   text-decoration: none;
 }
@@ -240,6 +240,9 @@
 
 .image-container {
   margin-right: 20px;
+  width: 632%;
+  height: auto;
+  margin-top: 24px;
 }
 
 .image-container img {
@@ -299,11 +302,11 @@ p {
 /*************************************************************************************************************/
 @media only screen and (min-width: 800px) {
   .logo {
-    width: 7%;
+    width: 25%;
     height: auto;
     position: relative;
-    left: 45%;
-    top: 10px;
+    left: 38%;
+    top: -22px;
   }
 
   /**her laves der grid til website**/
@@ -370,26 +373,9 @@ p {
 
   /**Top 3 billeder**/
   .top_kunstnere {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-
-  .top1 {
-    width: 200px;
-    margin: 30px;
-  }
-
-  .top2 {
-    width: 200px;
-    margin: 30px;
-  }
-
-  .top3 {
-    width: 200px;
-    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
   }
 
   /**Knap**/
@@ -403,6 +389,7 @@ p {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 5%;
     margin-left: 620px;
     margin-right: 620px;
     text-align: center;
@@ -513,6 +500,7 @@ p {
     font-size: 30px;
     font-family: GT-Haptik-Bold-Oblique, sans-serif;
     margin-bottom: 5px;
+    text-align: center;
   }
 
   p {

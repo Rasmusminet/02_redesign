@@ -135,6 +135,9 @@
   text-align: center;
   text-decoration: none;
 }
+.knap1:hover {
+  color: #ffd689;
+}
 
 /*************************************************************************************************************/
 .img_opdeler {
@@ -162,6 +165,7 @@
   width: 200px;
   margin-left: 40px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .my-image:hover {
@@ -394,7 +398,9 @@ p {
     margin-right: 620px;
     text-align: center;
   }
-
+  .knap1:hover {
+    color: #ffd689;
+  }
   /**Dette års kunstnere**/
 
   /*************************************************************************************************************/

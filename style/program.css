@@ -119,6 +119,7 @@
 }
 
 /**Knap**/
+
 .knap1 {
   display: block;
   bottom: 10px;
@@ -306,6 +307,7 @@ p {
   }
 
   /**her laves der grid til website**/
+
   .programbillede {
     position: absolute;
     width: 100%;

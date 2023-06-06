@@ -3,12 +3,14 @@ function showPopup(title, description, iframeLink, imageUrl) {
   var popupImage = document.getElementById("popup-image");
   var popupTitle = document.getElementById("popup-title");
   var popupDescription = document.getElementById("popup-description");
-  var iframeLink = document.getElementById("iframe-popup");
+  var iframelink = document.getElementById("iframe-popup");
 
   popupImage.src = imageUrl;
   popupTitle.textContent = title;
   popupDescription.textContent = description;
-  iframeink.src = iframeLink;
+  iframelink.src = iframeLink;
+
+  popup.style.display = "block";
 
   var closeBtn = document.getElementById("close-btn");
   closeBtn.onclick = function () {

@@ -29,6 +29,7 @@ p {
 
 h3 {
   font-family: GT-Haptik-Regular, sans-serif;
+  margin-top: 19%;
 }
 
 h2 {
@@ -376,6 +377,7 @@ h2 {
 
 @media only screen and (min-width: 800px) {
   /* hero / header */
+
   .logo {
     width: 25%;
     height: auto;
@@ -458,6 +460,7 @@ h2 {
     text-align: start;
     position: relative;
     font-size: 3rem;
+    margin-top: 6%;
   }
 
   .content-container p {
@@ -467,6 +470,8 @@ h2 {
     margin: 0 auto 10px;
     text-align: center;
     position: relative;
+    padding: 5%;
+    margin-bottom: -10%;
   }
 
   .figur23 {
@@ -516,7 +521,7 @@ h2 {
 
   .forening_textt h2 {
     position: relative;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     cursor: default;
     margin-top: 10px;

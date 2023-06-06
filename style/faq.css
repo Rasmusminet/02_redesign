@@ -15,6 +15,17 @@
 }
 
 /* generelt */
+svg {
+  font-size: 4rem;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  margin-top: -5%;
+  margin-bottom: -13%;
+}
+
+svg path {
+  fill: transparent;
+}
 
 img {
   width: 100%;
@@ -397,7 +408,17 @@ h2 {
     left: 37%;
     top: 10px;
   }
+  svg {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: -15%;
+    margin-bottom: -18%;
+  }
 
+  svg path {
+    fill: transparent;
+  }
   .hero-image {
     position: absolute;
     top: 0;

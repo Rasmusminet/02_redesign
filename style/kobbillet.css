@@ -32,6 +32,21 @@ img {
   left: 3%;
   top: 4px;
 }
+.transport {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 14%;
+  font-family: GT-Haptik, sans-serif;
+  font-size: 1.5rem;
+}
+.udflugt {
+  position: relative;
+  margin-left: 5%;
+  margin-top: 3%;
+  font-family: GT-Haptik, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
 
 /* hero-image */
 .hero-image {
@@ -114,7 +129,7 @@ h3 {
   font-family: GT-Haptik, sans-serif;
   color: #1c1f40;
   margin-left: 1%;
-  margin-top: 50%;
+  margin-top: 76%;
   text-align: center;
 }
 
